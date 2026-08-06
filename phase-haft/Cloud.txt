@@ -1,0 +1,10 @@
+# ☁️ Phase 7: Cloud
+
+- [ ] IaaS/PaaS/SaaS
+- [ ] Virtual Machine
+- [ ] Storage
+- [ ] IAM
+- [ ] VPC
+- [ ] Security Group
+
+

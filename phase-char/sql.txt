@@ -1,0 +1,12 @@
+# 🗄️ Phase 4: SQL
+
+- [ ] SELECT
+- [ ] WHERE
+- [ ] ORDER BY
+- [ ] LIMIT
+- [ ] JOIN
+- [ ] GROUP BY
+- [ ] HAVING
+- [ ] CTE
+- [ ] Indexing
+

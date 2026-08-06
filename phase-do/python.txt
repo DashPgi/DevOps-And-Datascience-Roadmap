@@ -1,0 +1,14 @@
+
+- [ ] Variables
+- [ ] Conditions
+- [ ] Loops
+- [ ] Lists
+- [ ] Dictionaries
+- [ ] Functions
+- [ ] OOP
+- [ ] Exception Handling
+- [ ] venv
+- [ ] pip
+- [ ] requests
+
+

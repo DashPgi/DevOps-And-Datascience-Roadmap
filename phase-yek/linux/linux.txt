@@ -1,0 +1,26 @@
+
+## Linux Basics
+
+- [ ] ls
+- [ ] cd
+- [ ] cp
+- [ ] mv
+- [ ] rm
+- [ ] find
+- [ ] grep
+
+## Users & Permissions
+
+- [ ] chmod
+- [ ] chown
+- [ ] sudo
+- [ ] useradd
+
+## Processes
+
+- [ ] ps
+- [ ] top
+- [ ] htop
+- [ ] kill
+- [ ] systemctl
+

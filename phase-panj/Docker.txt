@@ -1,0 +1,11 @@
+# 🐳 Phase 5: Docker
+
+- [ ] Image vs Container
+- [ ] Dockerfile
+- [ ] docker build
+- [ ] docker run
+- [ ] docker logs
+- [ ] Docker Compose
+- [ ] Volume
+- [ ] Networking
+

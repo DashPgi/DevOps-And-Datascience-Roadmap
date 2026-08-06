@@ -1,0 +1,8 @@
+# ⚙️ Phase 8: CI/CD
+
+- [ ] Pipeline Concept
+- [ ] GitHub Actions
+- [ ] YAML
+- [ ] Secrets
+- [ ] Automated Tests
+
