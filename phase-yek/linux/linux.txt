@@ -7,7 +7,7 @@
 - [ ] mv
 - [ ] rm
 - [ ] find
-- [ ] grep
+- [x] grep
 
 ## Users & Permissions
 
