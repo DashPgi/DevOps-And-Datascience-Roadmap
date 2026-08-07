@@ -1,0 +1,12 @@
+---Global---
+whoami -> Check which user u are 
+hostname -> Check what is u'r host or os
+date -> Check time
+uname -> Os's Info [-a -> distro] [-r -> kernel]
+passwd -> change password user 
+last -> show date last login
+man -> helping for cmd info and options
+grep -> filter for searching
+wc -> how much line-word-character
+pinfo -> find cmd like ui lib
+--help -> Helping for know cmd options
