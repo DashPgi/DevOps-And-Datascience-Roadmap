@@ -1,11 +1,5 @@
 # 🗺️ DevOps + Data Science Roadmap
 
-My personal learning tracker.
-
-Progress:
-
-![Progress](https://progress-bar.dev/0)
-
 ---
 
 # 🐧 Phase 1: Linux & Networking
@@ -18,7 +12,7 @@ Progress:
 - [ ] mv
 - [ ] rm
 - [ ] find
-- [ ] grep
+- [x] grep
 
 ## Users & Permissions
 
