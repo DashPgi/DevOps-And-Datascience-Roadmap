@@ -1,4 +1,5 @@
 ---Global---
+/ -> root
 whoami -> Check which user u are 
 hostname -> Check what is u'r host or os
 date -> Check time
@@ -10,3 +11,7 @@ grep -> filter for searching
 wc -> how much line-word-character
 pinfo -> find cmd like ui lib
 --help -> Helping for know cmd options
+--Ls--
+ls / -> show all file in root
+ls /etc/ -> show all linux's config
+
