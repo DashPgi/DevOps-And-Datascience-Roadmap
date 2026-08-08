@@ -15,9 +15,14 @@ man -> helping for cmd info and options
 grep -> filter for searching
 wc -> how much line-word-character
 pinfo -> find cmd like ui lib
---help -> Helping for know cmd options
-
-
+cmd --help -> Helping for know cmd options
+mdkir -m -> select mode for dir when its created
+mkdir -p -> create a dir in the not existed dir (even that is exist now)
+tree -> like ls but show file as a tree
+alias cmd = "opitionaly cmd" -> make your command
+hardlink -> all shortcut linking to the inode
+softlink -> a shorcut is linking to the inode and another shortcut is link to a org shortcut
+ln -> linking file together
 
 ---Ls---
 ls / -> show all file in root
