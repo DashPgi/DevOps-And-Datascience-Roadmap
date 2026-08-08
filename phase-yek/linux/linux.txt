@@ -1,7 +1,5 @@
 
 ## Linux Basics
----
-# [x] All-Done
 
 - [x] ls
 - [x] cd
@@ -15,8 +13,9 @@
 - [x] cat
 - [x] echo
 - [x] alias
-- [x] ln 
-- [ ] find
+- [x] ln
+- [x] tar 
+- [x] find
 - [x] grep
 
 ## Users & Permissions

@@ -23,8 +23,8 @@ alias cmd = "opitionaly cmd" -> make your command
 hardlink -> all shortcut linking to the inode
 softlink -> a shorcut is linking to the inode and another shortcut is link to a org shortcut
 ln -> linking file together
-
----Ls---
+2> /dev/null -> don't show erorr's
+find [address] -> find a file in my address with my filters
 ls / -> show all file in root
 ls /etc/ -> show all linux's config
 ls -l -> Show all file as a list
@@ -32,6 +32,13 @@ ls -al -> show all file (even hidden's) As a list
 ls -a -> Show all file (event hidden)
 ls -lrt -> ````````````` as a reversed and sorted by time , list
 ls -F -> `````````````` Classfied
+tar -> archive files
+tar cvf -> create new archive file with notif
+tar xvf -> Extract archived file
+tar tvf -> Show all archived content in file
+.tar -> archive's format [cvf]
+.tbz.tgz -> compressed archive's format tbz < tgz [czf,cjf]
+bzip2 & zip -> Copressed big File with .zip and .bz2 [ .zip > .bz2 ]
 
 ---Permision---
 = > Type-of-File :
