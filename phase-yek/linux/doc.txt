@@ -1,6 +1,9 @@
 ---Global---
 ~ -> home => Relative
 / -> root => Absolute
+* -> All of thing , any
+? -> 1 character
+[a-c] -> wildcard
 pwd -> current work dir
 whoami -> Check which user u are 
 hostname -> Check what is u'r host or os
@@ -13,7 +16,10 @@ grep -> filter for searching
 wc -> how much line-word-character
 pinfo -> find cmd like ui lib
 --help -> Helping for know cmd options
---Ls--
+
+
+
+---Ls---
 ls / -> show all file in root
 ls /etc/ -> show all linux's config
 ls -l -> Show all file as a list
@@ -21,4 +27,15 @@ ls -al -> show all file (even hidden's) As a list
 ls -a -> Show all file (event hidden)
 ls -lrt -> ````````````` as a reversed and sorted by time , list
 ls -F -> `````````````` Classfied
- 
+
+---Permision---
+= > Type-of-File :
+	L -> Shortcut or Link
+	D -> Directory
+	- -> File
+rwx -> read,write,execute 
+example => {
+	d rwx rwx rwx
+	type - for usr's - for group - for other
+	}
+chmod -> change mode [uog][-=+][rwx]
