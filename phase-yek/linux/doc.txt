@@ -1,5 +1,7 @@
 ---Global---
-/ -> root
+~ -> home => Relative
+/ -> root => Absolute
+pwd -> current work dir
 whoami -> Check which user u are 
 hostname -> Check what is u'r host or os
 date -> Check time
@@ -14,4 +16,9 @@ pinfo -> find cmd like ui lib
 --Ls--
 ls / -> show all file in root
 ls /etc/ -> show all linux's config
-
+ls -l -> Show all file as a list
+ls -al -> show all file (even hidden's) As a list
+ls -a -> Show all file (event hidden)
+ls -lrt -> ````````````` as a reversed and sorted by time , list
+ls -F -> `````````````` Classfied
+ 

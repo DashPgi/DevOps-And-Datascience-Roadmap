@@ -1,11 +1,11 @@
 
 ## Linux Basics
 
-- [ ] ls
-- [ ] cd
-- [ ] cp
-- [ ] mv
-- [ ] rm
+- [x] ls
+- [x] cd
+- [x] cp
+- [x] mv
+- [x] rm
 - [ ] find
 - [x] grep
 
