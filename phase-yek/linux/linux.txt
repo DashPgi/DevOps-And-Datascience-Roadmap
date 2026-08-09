@@ -25,6 +25,7 @@
 - [x] sudo
 - [ ] useradd
 - [x] chtv
+
 ## Processes
 
 - [ ] ps
@@ -35,6 +36,6 @@
 
 ## SSH
 
-- [ ] ssh
-- [ ] ssh-keygen
-- [ ] scp
+- [x] ssh
+- [x] ssh-keygen
+- [x] scp
