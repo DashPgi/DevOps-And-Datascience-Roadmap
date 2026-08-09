@@ -22,9 +22,9 @@
 
 - [ ] chmod
 - [ ] chown
-- [ ] sudo
+- [x] sudo
 - [ ] useradd
-
+- [x] chtv
 ## Processes
 
 - [ ] ps
@@ -33,3 +33,8 @@
 - [ ] kill
 - [ ] systemctl
 
+## SSH
+
+- [ ] ssh
+- [ ] ssh-keygen
+- [ ] scp

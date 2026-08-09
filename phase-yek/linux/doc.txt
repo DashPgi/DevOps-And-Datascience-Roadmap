@@ -39,8 +39,10 @@ tar tvf -> Show all archived content in file
 .tar -> archive's format [cvf]
 .tbz.tgz -> compressed archive's format tbz < tgz [czf,cjf]
 bzip2 & zip -> Copressed big File with .zip and .bz2 [ .zip > .bz2 ]
+/etc/sudoers -> sudo config => host = {user] command
 
----Permision---
+
+---Permission---
 = > Type-of-File :
 	L -> Shortcut or Link
 	D -> Directory
@@ -51,3 +53,5 @@ example => {
 	type - for usr's - for group - for other
 	}
 chmod -> change mode [uog][-=+][rwx]
+sudo chtv 2-12 -> multi user in os
+
