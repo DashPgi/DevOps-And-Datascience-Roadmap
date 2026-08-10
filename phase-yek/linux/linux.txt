@@ -20,9 +20,11 @@
 
 ## Users & Permissions
 
-- [ ] chmod
-- [ ] chown
+- [x] chmod
+- [x] chown
+- [x] chgrp
 - [x] sudo
+- [x] su
 - [ ] useradd
 - [x] chtv
 
