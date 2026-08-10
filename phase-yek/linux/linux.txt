@@ -22,7 +22,7 @@
 - [x] stdin
 - [x] stdout
 - [x] stderr
-- [x] IO
+- [x] BashIO
 
 ## Users & Permissions
 

@@ -54,6 +54,10 @@ etc/hosts -> save a thing (like ip) as a variable
 1 -> stdout
 2 -> stderr 
 tee -> save and throw data 
+env -> Variable's List
+$[name] -> variable sign
+export var=address | var=value -> adding new var or change old var in env
+.bashrc -> bash's setting
 
 ---Permission---
 = > Type-of-File :
