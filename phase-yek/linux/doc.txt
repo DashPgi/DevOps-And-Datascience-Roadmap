@@ -47,6 +47,14 @@ bzip2 & zip -> Copressed big File with .zip and .bz2 [ .zip > .bz2 ]
 /etc/sudoers -> sudo config => host = {user] command
 etc/hosts -> save a thing (like ip) as a variable
 
+
+
+---Bash---
+0 -> stdin
+1 -> stdout
+2 -> stderr 
+tee -> save and throw data 
+
 ---Permission---
 = > Type-of-File :
 	L -> Shortcut or Link
@@ -75,3 +83,7 @@ ssh -p -> change port [Default port = 22]
 ssh -v,-vv,-vvv -> see connection's problem
 ssh user@ip 'Cmd' -> command another sys without shell
 sftp -> put => upload get=>download -r => for dir lcd => local change dict
+
+---Proccess---
+ps aux -> show more useful info 
+

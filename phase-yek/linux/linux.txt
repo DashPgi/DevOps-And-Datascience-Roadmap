@@ -18,6 +18,12 @@
 - [x] find
 - [x] grep
 
+## Bash
+- [x] stdin
+- [x] stdout
+- [x] stderr
+- [x] IO
+
 ## Users & Permissions
 
 - [x] chmod
