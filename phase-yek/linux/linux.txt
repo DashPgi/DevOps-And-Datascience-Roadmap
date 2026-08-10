@@ -25,8 +25,11 @@
 - [x] chgrp
 - [x] sudo
 - [x] su
-- [ ] useradd
+- [x] useradd
 - [x] chtv
+- [x] SUID
+- [x] SGID
+- [x] umask
 
 ## Processes
 

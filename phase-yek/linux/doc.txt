@@ -63,6 +63,7 @@ chmod g+s -> ownership as groupg SGID
 chmod -> change mode [uog][-=+][rwx]
 chmod +t -> STICKY
 sudo chtv 2-12 -> multi user in os
+umask -> show default perm in os
 
 ---SSH---
 ssh usr@ip -> remote another device
