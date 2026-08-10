@@ -3,7 +3,12 @@
 / -> root => Absolute
 * -> All of thing , any
 ? -> 1 character
-[a-c] -> wildcard
+wildcard : 
+{
+	[a-z]
+	?
+	*
+}
 pwd -> current work dir
 whoami -> Check which user u are 
 hostname -> Check what is u'r host or os
@@ -24,7 +29,7 @@ hardlink -> all shortcut linking to the inode
 softlink -> a shorcut is linking to the inode and another shortcut is link to a org shortcut
 ln -> linking file together
 2> /dev/null -> don't show erorr's
-find [address] -> find a file in my address with my filters
+find [address] -> find a file in my address with my filters ,-name => with name
 ls / -> show all file in root
 ls /etc/ -> show all linux's config
 ls -l -> Show all file as a list
@@ -54,8 +59,14 @@ example => {
 	}
 chmod -> change mode [uog][-=+][rwx]
 sudo chtv 2-12 -> multi user in os
+
+---SSH---
 ssh usr@ip -> remote another device
 ssh-keygen -> like bridge between two device and throwing file to another sys without passwd 
 ssh-copy-id usr@ip -> copy thing and forward into another device
 scp user@ip -> copy file from another sys into ur sys
-
+ssh -i -> use pv key
+ssh -p -> change port [Default port = 22]
+ssh -v,-vv,-vvv -> see connection's problem
+ssh user@ip 'Cmd' -> command another sys without shell
+sftp -> put => upload get=>download -r => for dir lcd => local change dict
