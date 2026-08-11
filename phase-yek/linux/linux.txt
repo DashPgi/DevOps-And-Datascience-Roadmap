@@ -38,6 +38,8 @@
 - [x] SUID
 - [x] SGID
 - [x] umask
+- [x] groupadd
+- [x] loginctl
 
 ## Processes
 

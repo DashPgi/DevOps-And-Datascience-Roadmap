@@ -88,6 +88,11 @@ example => {
 	d rwx rwx rwx
 	type - for usr's - for group - for other
 	}
+useradd [option] name -> adding new user for sys [-c => comment, -G => Selected to a group,-D => default,-s => perm,-p => perm
+users -> show logged or currently  users
+w -> show that how many people are using ur pc or os
+usrname:encrypted passord:usrid:gpid:comment:home-directory -> user info 
+groups-> show all groups
 chown -> change ownership usr and grp
 chmod u+s -> ownership as user SUID
 chmod g+s -> ownership as groupg SGID
@@ -95,6 +100,7 @@ chmod -> change mode [uog][-=+][rwx]
 chmod +t -> STICKY
 sudo chtv 2-12 -> multi user in os
 umask -> show default perm in os
+loginctl -> manage and control all login
 
 ---SSH---
 ssh usr@ip -> remote another device
