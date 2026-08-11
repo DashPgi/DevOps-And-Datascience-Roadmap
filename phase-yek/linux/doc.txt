@@ -69,7 +69,13 @@ read var -> set input as a var
 if [],else , elif [] ,then ,fi -> conditional syx
 for _ in __ ,do ,done ,{start..stop..step}-> loop syx
 printf -> print syx
-
+while [],do,done -> while loop syx
+sleep -> colddown syx
+[$1-$9] -> args
+$# -> length of arrays
+$(""*n) -> arrays syx with n item
+functionnme(){} -> function syx [for function's call we dont need to use ()] , [for using a function with output we need to call its as a variable]
+local var -> Create local variable in function's
 
 
 ---Permission---
