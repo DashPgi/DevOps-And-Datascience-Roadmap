@@ -58,6 +58,19 @@ env -> Variable's List
 $[name] -> variable sign
 export var=address | var=value -> adding new var or change old var in env
 .bashrc -> bash's setting
+!/bin/bash -> execute without bash => shbang
+< -> stdout
+> -> stdin
+>> -> append
+(#) -> comment syx
+(:'') -> comment syx for multi line
+-eq,-gt.-ge,lt,le -> Logical Oparation's
+read var -> set input as a var
+if [],else , elif [] ,then ,fi -> conditional syx
+for _ in __ ,do ,done ,{start..stop..step}-> loop syx
+printf -> print syx
+
+
 
 ---Permission---
 = > Type-of-File :
