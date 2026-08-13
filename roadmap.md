@@ -6,28 +6,66 @@
 
 ## Linux Basics
 
-- [ ] ls
-- [ ] cd
-- [ ] cp
-- [ ] mv
-- [ ] rm
-- [ ] find
+- [x] ls
+- [x] cd
+- [x] cp
+- [x] mv
+- [x] rm
+- [x] mkdir
+- [x] man
+- [x] rmdir
+- [x] nano
+- [x] cat
+- [x] echo
+- [x] alias
+- [x] ln
+- [x] tar 
+- [x] find
 - [x] grep
+
+## Bash
+
+- [x] stdin
+- [x] stdout
+- [x] stderr
+- [x] BashIO
+- [x] BashScript
+
 
 ## Users & Permissions
 
-- [ ] chmod
-- [ ] chown
-- [ ] sudo
-- [ ] useradd
+- [x] chmod
+- [x] chown
+- [x] chgrp
+- [x] sudo
+- [x] su
+- [x] useradd
+- [x] chtv
+- [x] SUID
+- [x] SGID
+- [x] umask
+- [x] groupadd
+- [x] loginctl
 
 ## Processes
 
-- [ ] ps
-- [ ] top
-- [ ] htop
-- [ ] kill
-- [ ] systemctl
+- [x] partiion
+- [x] filesystem
+- [x] mount
+- [x] jobs
+- [s] ps
+- [x] top
+- [x] htop
+- [x] kill
+- [x] systemctl
+
+## SSH
+
+- [x] ssh
+- [x] ssh-keygen
+- [x] scp
+- [x] sftp
+- [x] ssh-agent
 
 ## Networking
 
@@ -35,11 +73,6 @@
 - [ ] Subnet
 - [ ] DNS
 - [ ] HTTP/HTTPS
-
-## SSH
-
-- [ ] ssh
-- [ ] ssh-keygen
 
 ## Firewall
 
