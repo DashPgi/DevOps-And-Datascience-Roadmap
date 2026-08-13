@@ -49,9 +49,9 @@
 - [x] mount
 - [x] jovs
 - [ ] ps
-- [ ] top
-- [ ] htop
-- [ ] kill
+- [x] top
+- [x] htop
+- [x] kill
 - [ ] systemctl
 
 ## SSH

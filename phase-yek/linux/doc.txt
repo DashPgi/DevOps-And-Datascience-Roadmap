@@ -120,4 +120,7 @@ Partition -> {
 	cgdisk,cfdisk => graphical fdisk and cfdisk
 }
 mkfs -> make filesystem
-
+jobs -> show all running app on just a terminal
+fg [numer] -> closing app on just a rerminal (if bash => fg num,if zsh => fg %num)
+kill pid -> closing or terminate a open app
+htop and top -> Taskmanager for open app's
