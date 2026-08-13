@@ -124,3 +124,8 @@ jobs -> show all running app on just a terminal
 fg [numer] -> closing app on just a rerminal (if bash => fg num,if zsh => fg %num)
 kill pid -> closing or terminate a open app
 htop and top -> Taskmanager for open app's
+nice -n [-20,10] -> Pirozitation for apps on cpu
+systemctl start servicename -> start a service
+systemctl stop  ``````````` -> stop  ` ```````
+systemctl status``````````` -> show status of service's
+systemctl en/disable -> en/disable service's

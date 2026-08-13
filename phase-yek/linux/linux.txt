@@ -47,12 +47,12 @@
 - [x] partiion
 - [x] filesystem
 - [x] mount
-- [x] jovs
-- [ ] ps
+- [x] jobs
+- [s] ps
 - [x] top
 - [x] htop
 - [x] kill
-- [ ] systemctl
+- [x] systemctl
 
 ## SSH
 
