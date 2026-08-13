@@ -47,6 +47,7 @@
 - [x] partiion
 - [x] filesystem
 - [x] mount
+- [x] jovs
 - [ ] ps
 - [ ] top
 - [ ] htop
