@@ -119,3 +119,5 @@ Partition -> {
 	fdisk = controling partition for all type
 	cgdisk,cfdisk => graphical fdisk and cfdisk
 }
+mkfs -> make filesystem
+

@@ -19,6 +19,7 @@
 - [x] grep
 
 ## Bash
+
 - [x] stdin
 - [x] stdout
 - [x] stderr
@@ -43,6 +44,9 @@
 
 ## Processes
 
+- [x] partiion
+- [x] filesystem
+- [x] mount
 - [ ] ps
 - [ ] top
 - [ ] htop
