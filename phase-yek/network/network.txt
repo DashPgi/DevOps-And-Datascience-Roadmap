@@ -1,14 +1,9 @@
 ## Networking
 
-- [ ] IP
-- [ ] Subnet
-- [ ] DNS
-- [ ] HTTP/HTTPS
-
-## SSH
-
-- [ ] ssh
-- [ ] ssh-keygen
+- [x] IP
+- [x] Subnet
+- [x] DNS
+- [x] HTTP/HTTPS
 
 ## Firewall
 
