@@ -1,5 +1,6 @@
 ## Networking
 
+- [x] Network+
 - [x] IP
 - [x] Subnet
 - [x] DNS
@@ -8,7 +9,7 @@
 ## Firewall
 
 - [ ] ufw
-- [ ] iptables
+- [x] iptables
 
 
 
