@@ -69,15 +69,16 @@
 
 ## Networking
 
-- [ ] IP
-- [ ] Subnet
-- [ ] DNS
-- [ ] HTTP/HTTPS
+- [x] Network+
+- [x] IP
+- [x] Subnet
+- [x] DNS
+- [x] HTTP/HTTPS
 
 ## Firewall
 
-- [ ] ufw
-- [ ] iptables
+- [x] ufw
+- [x] iptables
 
 
 ---
