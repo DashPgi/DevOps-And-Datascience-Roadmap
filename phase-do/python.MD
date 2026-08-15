@@ -7,9 +7,9 @@
 - [x] Dictionaries
 - [x] Functions
 - [x] OOP
-- [ ] Exception Handling
-- [ ] venv
-- [ ] pip
-- [ ] requests
+- [x] Exception Handling
+- [x] venv
+- [x] pip
+- [x] requests
 
 
