@@ -1,11 +1,12 @@
+## Python
 
-- [ ] Variables
-- [ ] Conditions
-- [ ] Loops
-- [ ] Lists
-- [ ] Dictionaries
-- [ ] Functions
-- [ ] OOP
+- [x] Variables
+- [x] Conditions
+- [x] Loops
+- [x] Lists
+- [x] Dictionaries
+- [x] Functions
+- [x] OOP
 - [ ] Exception Handling
 - [ ] venv
 - [ ] pip
