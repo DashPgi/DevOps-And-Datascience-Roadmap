@@ -85,17 +85,17 @@
 
 # 🐍 Phase 2: Python
 
-- [ ] Variables
-- [ ] Conditions
-- [ ] Loops
-- [ ] Lists
-- [ ] Dictionaries
-- [ ] Functions
-- [ ] OOP
-- [ ] Exception Handling
-- [ ] venv
-- [ ] pip
-- [ ] requests
+- [x] Variables
+- [x] Conditions
+- [x] Loops
+- [x] Lists
+- [x] Dictionaries
+- [x] Functions
+- [x] OOP
+- [x] Exception Handling
+- [x] venv
+- [x] pip
+- [x] requests
 
 
 ---
