@@ -8,7 +8,7 @@
 
 ## Firewall
 
-- [ ] ufw
+- [x] ufw
 - [x] iptables
 
 
