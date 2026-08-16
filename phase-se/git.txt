@@ -1,11 +1,11 @@
-# 🔀 Phase 3: Git
+## Phase 3: Git
 
-- [ ] git init
-- [ ] git add
-- [ ] git commit
-- [ ] git push
-- [ ] git pull
-- [ ] Branch
+- [x] git init
+- [x] git add
+- [x] git commit
+- [x] git push
+- [x] git pull
+- [x] Branch
 - [ ] Merge
 - [ ] Rebase
 - [ ] Pull Request
