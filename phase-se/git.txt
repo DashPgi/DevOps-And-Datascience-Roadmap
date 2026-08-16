@@ -10,6 +10,7 @@
 - [x] diff&patch
 - [x] Track 
 - [x] Stage
+- [x] Revert	
 - [ ] Merge
 - [ ] Rebase
 - [ ] Pull Request

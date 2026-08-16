@@ -3,11 +3,12 @@ git clone -> cloning repo from github into local
 git init -> initialize and create .git file and repo into local
 git status -> show status and stage 
 git diff -> diffrenet between two file or a file before and after edited
-git commit -> add commit for a file on stage [-m => message,-a => commit a unselected file
+git commit -> add commit for a file on stage [-m => message,-a => commit a unselected file, --amend Change message]
 git patch -> replace diff's from first file to second file
 git config --global user.name "name"
 git config --global user.email "email"
 git log -> show all commit id,info,date and message
 git cheackout -> undoing on staged file 
 git restore --stage -> untracked a staged file
-
+git revert Head/commitid -> rollback commited files
+git reset -> unstage
