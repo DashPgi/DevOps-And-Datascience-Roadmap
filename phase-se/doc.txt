@@ -1,14 +1,55 @@
-git add file -> adding file on stage and ready for push
-git clone -> cloning repo from github into local
-git init -> initialize and create .git file and repo into local
-git status -> show status and stage 
-git diff -> diffrenet between two file or a file before and after edited
-git commit -> add commit for a file on stage [-m => message,-a => commit a unselected file, --amend Change message]
-git patch -> replace diff's from first file to second file
-git config --global user.name "name"
-git config --global user.email "email"
-git log -> show all commit id,info,date and message
-git cheackout -> undoing on staged file 
-git restore --stage -> untracked a staged file
-git revert Head/commitid -> rollback commited files
-git reset -> unstage
+git add file -> Add a file to the staging area, ready to be committed
+
+git clone -> Clone a repository from GitHub to the local machine
+
+git init -> Initialize a Git repository and create the .git directory locally
+
+git status -> Show the current status of the working directory and staging area
+
+git diff -> Show the differences between files or between the previous and current versions of a file
+
+git commit -> Create a commit for the staged changes
+[-m => add a commit message
+ -a => commit modified and deleted tracked files without staging them first
+ --amend => modify the previous commit]
+
+git patch -> Apply or create a patch from the differences between files
+[Note: "git patch" is not a standard Git command]
+
+git config --global user.name "name" -> Set the global Git username
+
+git config --global user.email "email" -> Set the global Git email address
+
+git log -> Show commit history, including commit IDs, authors, dates, and messages
+
+git checkout -> Switch branches or restore files
+[It can be used to undo changes in files, but it is not specifically for undoing staged files]
+
+git restore --staged file -> Unstage a file
+
+git revert HEAD/commit-id -> Create a new commit that reverses the changes introduced by a previous commit
+
+git reset -> Move HEAD to another commit and/or unstage changes
+[The behavior depends on the option used, such as --soft, --mixed, or --hard]
+
+git merge branch-name -> Merge another branch into the currently selected branch
+
+git switch branch-name -> Switch to another branch
+[You can also use git checkout branch-name]
+
+git branch -> Show all local branches
+
+git branch -D branch-name -> Force-delete a branch
+
+git checkout -b branch-name -> Create and switch to a new branch
+[You can also use git switch -c branch-name]
+
+git merge --abort -> Abort an ongoing merge
+
+git remote add remote-name repo-url.git -> Add a remote repository and connect it to the local repository
+
+git pull -> Fetch changes from the remote repository and merge or rebase them into the current local branch
+
+git push -> Push local commits to the remote repository
+[push => local → remote
+ pull => remote → local]

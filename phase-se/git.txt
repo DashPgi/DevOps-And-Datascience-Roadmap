@@ -11,9 +11,9 @@
 - [x] Track 
 - [x] Stage
 - [x] Revert	
-- [ ] Merge
-- [ ] Rebase
-- [ ] Pull Request
-- [ ] .gitignore
-
-
+- [x] Merge
+- [x] Conflict
+- [x] Rebase
+- [x] Pull Request
+- [x] .gitignore
+- [x] remote
