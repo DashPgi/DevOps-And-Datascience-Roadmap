@@ -1,4 +1,0 @@
-1c1
-< print("hello worldd")
----
-> print("hello world")

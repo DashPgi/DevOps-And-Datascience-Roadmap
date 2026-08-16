@@ -1,4 +1,4 @@
---> ufw
+-- ufw
 ss -tunlp -> show open ports
 ufw allow/deny -> open and close ports 
 ufw status -> show all status from firewall config [numbered]
