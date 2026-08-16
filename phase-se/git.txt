@@ -8,7 +8,8 @@
 - [x] Branch
 - [x] git config
 - [x] diff&patch
-- [] 
+- [x] Track 
+- [x] Stage
 - [ ] Merge
 - [ ] Rebase
 - [ ] Pull Request

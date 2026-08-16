@@ -53,7 +53,7 @@
 - [x] filesystem
 - [x] mount
 - [x] jobs
-- [s] ps
+- [x] ps
 - [x] top
 - [x] htop
 - [x] kill
