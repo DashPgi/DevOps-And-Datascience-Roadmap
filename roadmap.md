@@ -88,8 +88,8 @@
 - [x] Variables
 - [x] Conditions
 - [x] Loops
-- [x] Lists
-- [x] Dictionaries
+- [x] DataTypes
+- [x] Modules
 - [x] Functions
 - [x] OOP
 - [x] Exception Handling
@@ -100,18 +100,26 @@
 
 ---
 
-# 🔀 Phase 3: Git
+## Phase 3: Git
 
-- [ ] git init
-- [ ] git add
-- [ ] git commit
-- [ ] git push
-- [ ] git pull
-- [ ] Branch
-- [ ] Merge
-- [ ] Rebase
-- [ ] Pull Request
-- [ ] .gitignore
+- [x] git init
+- [x] git add
+- [x] git commit
+- [x] git push
+- [x] git pull
+- [x] Branch
+- [x] git config
+- [x] diff&patch
+- [x] Track 
+- [x] Stage
+- [x] Revert	
+- [x] Merge
+- [x] Conflict
+- [x] Rebase
+- [x] Pull Request
+- [x] .gitignore
+- [x] remote
+
 
 
 ---
