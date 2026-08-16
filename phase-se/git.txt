@@ -6,6 +6,9 @@
 - [x] git push
 - [x] git pull
 - [x] Branch
+- [x] git config
+- [x] diff&patch
+- [] 
 - [ ] Merge
 - [ ] Rebase
 - [ ] Pull Request

@@ -4,4 +4,7 @@ git init -> initialize and create .git file and repo into local
 git status -> show status and stage 
 git diff -> diffrenet between two file 
 git commit -> add commit for a file on stage [-m => message,-a => commit a unselected file
+git patch -> replace diff's from first file to second file
+git config --global user.name "name"
+git config --global user.email "email"
 
