@@ -1,0 +1,11 @@
+Rule's of Normal Forms 
+
+--> 1NF
+--> 2NF
+--> 3NF
+
+Primarykey : [
+	Business Key,
+	non-Business Key
+	]
+

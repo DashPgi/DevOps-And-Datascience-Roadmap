@@ -1,5 +1,6 @@
-# 🗄️ Phase 4: SQL
+## SQL
 
+- [x] RDBMS
 - [x] T-SQL
 - [ ] SELECT
 - [ ] WHERE
