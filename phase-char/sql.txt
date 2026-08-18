@@ -1,5 +1,6 @@
 # 🗄️ Phase 4: SQL
 
+- [x] T-SQL
 - [ ] SELECT
 - [ ] WHERE
 - [ ] ORDER BY
