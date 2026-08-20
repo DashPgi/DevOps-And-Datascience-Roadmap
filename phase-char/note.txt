@@ -23,3 +23,7 @@ Order By {
 	Asc
 	desc
 	}
+Case Object
+When Con then moving
+else moving
+end as categoryname
