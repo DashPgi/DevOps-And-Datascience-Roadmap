@@ -14,9 +14,10 @@ Cascade -> Delete all Records
 setNull -> Delete Only the records table is Null
 setDefault 
 
-From -> Where -> Group By -> Having -> Select -> Order By
+From -> Where -> Group By -> Having -> Select -> Order By -> Top
 
 Select {
+	Top (n)
 	Uniqaction Selected Itmes
 	}
 Order By {
@@ -27,3 +28,5 @@ Case Object
 When Con then moving
 else moving
 end as categoryname
+
+offset (skipped num) ROWS/COLUMNS FETCH NEXT (n) ROWS/COLUMNS ONLY;
