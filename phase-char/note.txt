@@ -14,8 +14,12 @@ Cascade -> Delete all Records
 setNull -> Delete Only the records table is Null
 setDefault 
 
-From -> Where -> Group By -> Having -> Select
+From -> Where -> Group By -> Having -> Select -> Order By
 
 Select {
 	Uniqaction Selected Itmes
+	}
+Order By {
+	Asc
+	desc
 	}
