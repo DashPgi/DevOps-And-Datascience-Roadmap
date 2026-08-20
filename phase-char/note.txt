@@ -14,4 +14,4 @@ Cascade -> Delete all Records
 setNull -> Delete Only the records table is Null
 setDefault 
 
-From -> Where -> Select
+From -> Where -> Group By -> Select
