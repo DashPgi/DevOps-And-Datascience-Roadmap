@@ -12,4 +12,6 @@ Primarykey : [
 NoAction -> Delete with my code
 Cascade -> Delete all Records 
 setNull -> Delete Only the records table is Null
-setDefault -> 
+setDefault 
+
+From -> Where -> Select
