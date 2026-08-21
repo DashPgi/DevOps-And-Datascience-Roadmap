@@ -16,6 +16,8 @@ setDefault
 
 From -> Where -> Group By -> Having -> Select -> Order By -> Top
 
+WHERE, LIKE {Wildcard} → When the data does not exactly match
+
 Select {
 	Top (n)
 	Uniqaction Selected Itmes
@@ -76,5 +78,4 @@ SELECTE [
 	UPPER()
 	LOWER()
 	RTRIM , LTRIM()
-	]
-
+	];
