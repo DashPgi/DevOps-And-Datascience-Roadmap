@@ -30,3 +30,25 @@ else moving
 end as categoryname
 
 offset (skipped num) ROWS/COLUMNS FETCH NEXT (n) ROWS/COLUMNS ONLY;
+
+--- Data Type : 
+Exact numeric : {
+	Tinyint = 0-255 1bit
+	Smallint = -32k - +32k 2bit
+	int = 4bit
+	bigint = 8bit
+	bit = 1,0,NULL 1bit
+	Decimal = 5-17bit
+	Money = 8bit
+	Smallmoney = 4bit
+	}
+Binary
+Xml : {
+	0-2gb
+	}
+hierarchyid : For Tree's Data
+row-version : Versioning
+geometry&geography : For Location 0-2Gb
+sql_variant : 0-8000byte
+@ sql convert types automaticly [but we can use CAST for convert without Automaticly]
+
