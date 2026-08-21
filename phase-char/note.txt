@@ -61,3 +61,20 @@ As -> Accent Sensitive
 WHERE , COLLATE -> Filter Items and collate 
 SLECTE , COALESCE -> ignore Nulls data 
 `````` , CONCAT -> Handle and Ignore NUlls data
+
+--- functions : 
+SELECTE [
+	SUPSTRING (,)
+	RIGHT (,)
+	Len ()
+	DATALENTGTH ()
+	CHARINDEX (,)
+	PATINDEX (,)
+	REPLACE (,,)
+	REPLICATE(,)
+	STUFF(,,,)
+	UPPER()
+	LOWER()
+	RTRIM , LTRIM()
+	]
+
