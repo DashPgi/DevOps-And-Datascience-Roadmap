@@ -51,4 +51,13 @@ row-version : Versioning
 geometry&geography : For Location 0-2Gb
 sql_variant : 0-8000byte
 @ sql convert types automaticly [but we can use CAST for convert without Automaticly]
+Priorization Data types -> Low - Hight
+singlebyte -> Char and varchar => one byte per character
+multibyte -> nchar and nvachar => one byte per character with one more char
 
+--- Colation :
+Ci -> Case insensitive
+As -> Accent Sensitive
+WHERE , COLLATE -> Filter Items and collate 
+SLECTE , COALESCE -> ignore Nulls data 
+`````` , CONCAT -> Handle and Ignore NUlls data
