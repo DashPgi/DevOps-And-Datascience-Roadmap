@@ -88,6 +88,11 @@ datatime : [
 	];
 --- Join :
 InnerJoin
-Outerjoin
+Outerjoin -> [
+	LEFT OUTER
+	RIGHT OUTER
+	FULL OUTER
+	]
 MultipleJoin
 CrossJoin
+CROSSJOIN -> INNERJOIN -> OUTERJOIN -> MULTIJOIN
