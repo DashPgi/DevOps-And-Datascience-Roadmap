@@ -53,3 +53,5 @@ git pull -> Fetch changes from the remote repository and merge or rebase them in
 git push -> Push local commits to the remote repository
 [push => local → remote
  pull => remote → local]
+
+git rebase ->

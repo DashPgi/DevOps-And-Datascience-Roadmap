@@ -86,3 +86,8 @@ datatime : [
 	DATEDIFF(,,) : show diffrence between two date
 	DATEPART(,) : apart a selected part from date
 	];
+--- Join :
+InnerJoin
+Outerjoin
+MultipleJoin
+CrossJoin
