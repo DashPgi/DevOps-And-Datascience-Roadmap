@@ -1,6 +1,9 @@
+select * 
+from Person.AddressType;
+
 select *
-From Person.Person
-WHERE PersonType like 'E_' and 
-	Title is not null
--- Group By Title
-Order by BusinessEntityID
+from Person.Person as p
+
+select *
+from Person.Person as p
+cross join Person.AddressType as a;
