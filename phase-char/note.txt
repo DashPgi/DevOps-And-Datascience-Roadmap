@@ -103,3 +103,7 @@ SET @NAME = value => Set Variable
 INNER Query , OUTER Queary
 
 *Exist Is better than IN for performance and large data*
+
+Intersect -> Subscrioption between two data
+Union -> Union Between two Data
+Except -> Removing duplicate between two data (Difference)

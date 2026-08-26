@@ -5,6 +5,7 @@
 - [x] SELECT
 - [x] WHERE
 - [x] ORDER BY
+- [x] Set Operator
 - [ ] LIMIT
 - [ ] JOIN
 - [x] GROUP BY
