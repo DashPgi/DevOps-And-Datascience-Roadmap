@@ -100,3 +100,6 @@ CROSSJOIN -> INNERJOIN -> OUTERJOIN -> MULTIJOIN
 DECLARE @NAME AS TYPE(size) = Value -> New Variable
 SET @NAME = value => Set Variable
 
+INNER Query , OUTER Queary
+
+*Exist Is better than IN for performance and large data*

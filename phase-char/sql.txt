@@ -2,13 +2,16 @@
 
 - [x] RDBMS
 - [x] T-SQL
-- [ ] SELECT
-- [ ] WHERE
-- [ ] ORDER BY
+- [x] SELECT
+- [x] WHERE
+- [x] ORDER BY
 - [ ] LIMIT
 - [ ] JOIN
-- [ ] GROUP BY
-- [ ] HAVING
+- [x] GROUP BY
+- [x] HAVING
+- [x] EXIST
+- [X] SUB-Query
+- [x] In
 - [ ] CTE
 - [ ] Indexing
 
