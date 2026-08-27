@@ -120,5 +120,18 @@ TRUNCATE TABLE tablename -> For deleting all rows (quickly)
 UPDATE tablename SET newfieldvalue -> replacing data (delete insert)
 MERGE INTO tablename -> Updating and inserting data together
 OUTPUT -> Loging INSERETED DELETED UPDATED MERGED Data
+IDENTITY(start,step) -> inserting automaticly 
+$identity -> show all field valued by identity
+CREATE SEQUENCE seqname AS type 
+	RESTART WITH const
+	INCREMENT BY const
+	MINVALUE const
+	MAXVALUE const
+	CYCLE | no cycle
+	CASHE const | no CASHE	-> a object what can Create uniq num or data
 MDF -> My Data Files
 LDF -> Log Data Fiels
+
+-- Keys :
+Primarykey -> non-repeating + uniq + notNull 
+ForgainKey -> Pointing Another Table
