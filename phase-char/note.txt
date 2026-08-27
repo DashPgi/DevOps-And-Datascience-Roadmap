@@ -107,3 +107,13 @@ INNER Query , OUTER Queary
 Intersect -> Subscrioption between two data
 Union -> Union Between two Data
 Except -> Removing duplicate between two data (Difference)
+
+-- Manipulating Data :
+INSERT	'fieldname' INTO 'tabelname' VALUES(value)
+CREATE TABEL db.tablename(
+	fieldname type value
+	)
+DROP TABEL IF EXIST 
+
+
+	
