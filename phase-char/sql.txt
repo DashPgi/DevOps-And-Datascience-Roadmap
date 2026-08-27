@@ -8,6 +8,7 @@
 - [x] Set Operator
 - [ ] LIMIT
 - [ ] JOIN
+- [x] Manipulating Data
 - [x] GROUP BY
 - [x] HAVING
 - [x] EXIST
