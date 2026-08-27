@@ -119,4 +119,6 @@ DELETE FROM tablename + WHERE filter -> for deleting selceted rows
 TRUNCATE TABLE tablename -> For deleting all rows (quickly) 
 UPDATE tablename SET newfieldvalue -> replacing data (delete insert)
 MERGE INTO tablename -> Updating and inserting data together
-
+OUTPUT -> Loging INSERETED DELETED UPDATED MERGED Data
+MDF -> My Data Files
+LDF -> Log Data Fiels
