@@ -135,3 +135,7 @@ LDF -> Log Data Fiels
 -- Keys :
 Primarykey -> non-repeating + uniq + notNull 
 ForgainKey -> Pointing Another Table
+
+-- Derivedtable :
+SELECT *
+FROM (SELECT*)

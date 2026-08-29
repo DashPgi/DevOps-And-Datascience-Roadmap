@@ -14,6 +14,7 @@
 - [x] EXIST
 - [X] SUB-Query
 - [x] In
+- [x] Derivedtable
 - [ ] CTE
 - [ ] Indexing
 
