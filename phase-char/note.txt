@@ -139,3 +139,8 @@ ForgainKey -> Pointing Another Table
 -- Derivedtable :
 SELECT *
 FROM (SELECT*)
+
+CTE -> Common table expression [
+	WITH ctename AS (selection)
+	SELECT * FROM ctename	
+]

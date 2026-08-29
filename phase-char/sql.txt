@@ -15,6 +15,6 @@
 - [X] SUB-Query
 - [x] In
 - [x] Derivedtable
-- [ ] CTE
+- [x] CTE
 - [ ] Indexing
 
