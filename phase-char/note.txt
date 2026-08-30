@@ -348,3 +348,11 @@ WITH CHECK OPTION → Sets a gate that controls data modifications according to 
 # ORDER BY in Table Expressions
 
 We can't use ORDER BY in a table expression unless we use it with TOP or another allowed construct such as OFFSET/FETCH.
+
+### Functions
+INLINE
+MSTVF
+Scaler function
+
+CREATE FUNCTION dbname (@cid AS type) RETURN TABLE AS RETURN() -> INLINE function
+$ you cant use loop , variable ,condition in Functions $
