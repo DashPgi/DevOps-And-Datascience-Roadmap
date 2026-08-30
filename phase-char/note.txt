@@ -144,3 +144,7 @@ CTE -> Common table expression [
 	WITH ctename AS (selection)
 	SELECT * FROM ctename	
 ]
+CREATE-DROP VIEW tablename AS (selecteddata) -> create a cte object once and use it always 
+ALTER VIEW tablename WITH ENCRYPTION AS -> encrypt views data
+$we cant use ORDER BY in table expression (except you use it with TOP)$
+

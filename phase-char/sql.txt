@@ -16,5 +16,6 @@
 - [x] In
 - [x] Derivedtable
 - [x] CTE
+- [x] View
 - [ ] Indexing
 
