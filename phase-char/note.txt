@@ -1,150 +1,1012 @@
-	Rule's of Normal Forms 
+# SQL Server Notes
 
---> 1NF
---> 2NF
---> 3NF
+## Rules of Normal Forms
 
-Primarykey : [
-	Business Key,
-	non-Business Key
-	]
+→ **1NF**  
+→ **2NF**  
+→ **3NF**
 
-NoAction -> Delete with my code
-Cascade -> Delete all Records 
-setNull -> Delete Only the records table is Null
-setDefault 
+### Primary Key
 
-From -> Where -> Group By -> Having -> Select -> Order By -> Top
+- Business Key
+- Non-Business Key
 
-WHERE, LIKE {Wildcard} → When the data does not exactly match
+---
 
-Select {
-	Top (n)
-	Uniqaction Selected Itmes
-	}
-Order By {
-	Asc
-	desc
-	}
-Case Object
-When Con then moving
-else moving
-end as categoryname
+## Referential Actions
 
-offset (skipped num) ROWS/COLUMNS FETCH NEXT (n) ROWS/COLUMNS ONLY;
+- **NO ACTION** → Delete with my code
+- **CASCADE** → Delete all related records
+- **SET NULL** → Set the related foreign-key values to `NULL`
+- **SET DEFAULT** → Set the related foreign-key values to their default value
 
---- Data Type : 
-Exact numeric : {
-	Tinyint = 0-255 1bit
-	Smallint = -32k - +32k 2bit
-	int = 4bit
-	bigint = 8bit
-	bit = 1,0,NULL 1bit
-	Decimal = 5-17bit
-	Money = 8bit
-	Smallmoney = 4bit
-	}
-Binary
-Xml : {
-	0-2gb
-	}
-hierarchyid : For Tree's Data
-row-version : Versioning
-geometry&geography : For Location 0-2Gb
-sql_variant : 0-8000byte
-@ sql convert types automaticly [but we can use CAST for convert without Automaticly]
-Priorization Data types -> Low - Hight
-singlebyte -> Char and varchar => one byte per character
-multibyte -> nchar and nvachar => one byte per character with one more char
+---
 
---- Colation :
-Ci -> Case insensitive
-As -> Accent Sensitive
-WHERE , COLLATE -> Filter Items and collate 
-SLECTE , COALESCE -> ignore Nulls data 
-`````` , CONCAT -> Handle and Ignore NUlls data
+## SQL Query Clauses
 
---- functions : 
-SELECTE [
-	SUPSTRING (,)
-	RIGHT (,)
-	Len ()
-	DATALENTGTH ()
-	CHARINDEX (,)
-	PATINDEX (,)
-	REPLACE (,,)
-	REPLICATE(,)
-	STUFF(,,,)
-	UPPER()
-	LOWER()
-	RTRIM , LTRIM()
-	];
-datatime : [
-	GETDATE() AND CURRENT_TIMESTAMP : show current date
-	GETUTCDATE() : show utc
-	DATEADD(,,) : ADD new date
-	DATEDIFF(,,) : show diffrence between two date
-	DATEPART(,) : apart a selected part from date
-	];
---- Join :
-InnerJoin
-Outerjoin -> [
-	LEFT OUTER
-	RIGHT OUTER
-	FULL OUTER
-	]
-MultipleJoin
-CrossJoin
-CROSSJOIN -> INNERJOIN -> OUTERJOIN -> MULTIJOIN
+### Query Processing Order
 
-DECLARE @NAME AS TYPE(size) = Value -> New Variable
-SET @NAME = value => Set Variable
+**FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → TOP**
 
-INNER Query , OUTER Queary
+### WHERE / LIKE
 
-*Exist Is better than IN for performance and large data*
+`LIKE` is used when the data does not exactly match the specified value.
 
-Intersect -> Subscrioption between two data
-Union -> Union Between two Data
-Except -> Removing duplicate between two data (Difference)
+### LIKE Wildcards
 
--- Manipulating Data :
-INSERT	'fieldname' INTO 'tabelname' VALUES(value)
-CREATE TABEL db.tablename(
-	fieldname type value
-	)
-DROP TABEL IF EXIST 
+- `%` → Matches zero or more characters.
+- `_` → Matches exactly one character.
+- `[abc]` → Matches one character from the specified set.
+- `[a-z]` → Matches one character within the specified range.
+- `[^abc]` → Matches one character that is not in the specified set.
 
-DELETE FROM tablename + WHERE filter -> for deleting selceted rows
-TRUNCATE TABLE tablename -> For deleting all rows (quickly) 
-UPDATE tablename SET newfieldvalue -> replacing data (delete insert)
-MERGE INTO tablename -> Updating and inserting data together
-OUTPUT -> Loging INSERETED DELETED UPDATED MERGED Data
-IDENTITY(start,step) -> inserting automaticly 
-$identity -> show all field valued by identity
-CREATE SEQUENCE seqname AS type 
-	RESTART WITH const
-	INCREMENT BY const
-	MINVALUE const
-	MAXVALUE const
-	CYCLE | no cycle
-	CASHE const | no CASHE	-> a object what can Create uniq num or data
-MDF -> My Data Files
-LDF -> Log Data Fiels
+---
 
--- Keys :
-Primarykey -> non-repeating + uniq + notNull 
-ForgainKey -> Pointing Another Table
+## SELECT
 
--- Derivedtable :
+```sql
+SELECT
+    TOP (n)
+    DISTINCT selected_items
+FROM table_name;
+```
+
+### DISTINCT
+
+`DISTINCT` is used to select unique result rows and remove duplicate values from the result.
+
+---
+
+## ORDER BY
+
+```sql
+ORDER BY column_name ASC;
+ORDER BY column_name DESC;
+```
+
+- **ASC** → Ascending order
+- **DESC** → Descending order
+
+---
+
+## CASE Expression
+
+```sql
+CASE
+    WHEN condition THEN result
+    WHEN condition THEN result
+    ELSE result
+END AS category_name
+```
+
+`CASE` is used to return different values based on conditions.
+
+---
+
+## OFFSET / FETCH
+
+```sql
+ORDER BY column_name
+OFFSET skipped_number ROWS
+FETCH NEXT n ROWS ONLY;
+```
+
+- **OFFSET** → Number of rows to skip.
+- **FETCH NEXT** → Number of rows to return.
+
+This is commonly used for pagination.
+
+---
+
+# Data Types
+
+## Exact Numeric Data Types
+
+```text
+TINYINT
+SMALLINT
+INT
+BIGINT
+BIT
+DECIMAL
+MONEY
+SMALLMONEY
+```
+
+### TINYINT
+
+```text
+0 – 255
+1 byte
+```
+
+### SMALLINT
+
+```text
+-32,768 – 32,767
+2 bytes
+```
+
+### INT
+
+```text
+4 bytes
+```
+
+### BIGINT
+
+```text
+8 bytes
+```
+
+### BIT
+
+```text
+0, 1, NULL
+```
+
+### DECIMAL
+
+```text
+5 – 17 bytes
+```
+
+### MONEY
+
+```text
+8 bytes
+```
+
+### SMALLMONEY
+
+```text
+4 bytes
+```
+
+---
+
+## Binary Data
+
+Binary data types are used to store binary values.
+
+---
+
+## XML
+
+```text
+0 – 2 GB
+```
+
+`XML` is used to store XML data.
+
+---
+
+## hierarchyid
+
+`hierarchyid` is used for storing hierarchical or tree-structured data.
+
+---
+
+## rowversion
+
+`rowversion` is used for versioning rows and tracking changes.
+
+---
+
+## geometry & geography
+
+These data types are used for storing spatial and location data.
+
+```text
+Up to approximately 2 GB
+```
+
+- **geometry** → Used for planar spatial data.
+- **geography** → Used for spatial data based on the Earth's surface.
+
+---
+
+## sql_variant
+
+`sql_variant` can store values of different SQL Server data types.
+
+```text
+Up to 8,000 bytes
+```
+
+---
+
+## Data Type Conversion
+
+SQL Server can automatically convert compatible data types when necessary.
+
+We can also use `CAST` for explicit type conversion.
+
+```sql
+CAST(expression AS data_type)
+```
+
+---
+
+## Character Data Types
+
+### Single-Byte / Non-Unicode
+
+```text
+CHAR
+VARCHAR
+```
+
+### Multibyte / Unicode
+
+```text
+NCHAR
+NVARCHAR
+```
+
+---
+
+# Collation
+
+Collation controls how character data is compared and sorted.
+
+### CI
+
+**Case Insensitive**
+
+```text
+A = a
+```
+
+### CS
+
+**Case Sensitive**
+
+```text
+A ≠ a
+```
+
+### AI
+
+**Accent Insensitive**
+
+```text
+a = á
+```
+
+### AS
+
+**Accent Sensitive**
+
+```text
+a ≠ á
+```
+
+### COLLATE
+
+`COLLATE` can be used to specify or change the collation for an expression.
+
+```sql
+WHERE column_name COLLATE collation_name = 'value';
+```
+
+---
+
+# NULL Handling
+
+### COALESCE
+
+`COALESCE` can be used to return the first non-NULL value.
+
+```sql
+SELECT COALESCE(column1, column2, 'Default Value');
+```
+
+---
+
+# String Functions
+
+```sql
+SUBSTRING()
+RIGHT()
+LEN()
+DATALENGTH()
+CHARINDEX()
+PATINDEX()
+REPLACE()
+REPLICATE()
+STUFF()
+UPPER()
+LOWER()
+RTRIM()
+LTRIM()
+```
+
+### SUBSTRING
+
+Returns a specified part of a string.
+
+```sql
+SUBSTRING(expression, start, length)
+```
+
+### RIGHT
+
+Returns a specified number of characters from the right side.
+
+```sql
+RIGHT(expression, number_of_characters)
+```
+
+### LEN
+
+Returns the length of a string.
+
+```sql
+LEN(expression)
+```
+
+### DATALENGTH
+
+Returns the number of bytes used to represent an expression.
+
+```sql
+DATALENGTH(expression)
+```
+
+### CHARINDEX
+
+Finds the position of a specified expression within a string.
+
+```sql
+CHARINDEX(expression_to_find, expression_to_search)
+```
+
+### PATINDEX
+
+Returns the starting position of a pattern within a string.
+
+```sql
+PATINDEX(pattern, expression)
+```
+
+### REPLACE
+
+Replaces occurrences of a specified string.
+
+```sql
+REPLACE(string_expression, string_pattern, string_replacement)
+```
+
+### REPLICATE
+
+Repeats a string a specified number of times.
+
+```sql
+REPLICATE(string_expression, integer_expression)
+```
+
+### STUFF
+
+Deletes a specified length of characters and inserts another string.
+
+```sql
+STUFF(character_expression, start, length, replace_with_expression)
+```
+
+### UPPER
+
+Converts a string to uppercase.
+
+```sql
+UPPER(expression)
+```
+
+### LOWER
+
+Converts a string to lowercase.
+
+```sql
+LOWER(expression)
+```
+
+### RTRIM
+
+Removes trailing spaces.
+
+```sql
+RTRIM(expression)
+```
+
+### LTRIM
+
+Removes leading spaces.
+
+```sql
+LTRIM(expression)
+```
+
+---
+
+# Date and Time Functions
+
+```sql
+GETDATE()
+CURRENT_TIMESTAMP
+GETUTCDATE()
+DATEADD()
+DATEDIFF()
+DATEPART()
+```
+
+### GETDATE / CURRENT_TIMESTAMP
+
+Returns the current date and time.
+
+```sql
+GETDATE()
+CURRENT_TIMESTAMP
+```
+
+### GETUTCDATE
+
+Returns the current UTC date and time.
+
+```sql
+GETUTCDATE()
+```
+
+### DATEADD
+
+Adds a specified number of date parts to a date.
+
+```sql
+DATEADD(datepart, number, date)
+```
+
+### DATEDIFF
+
+Returns the difference between two dates based on a specified date part.
+
+```sql
+DATEDIFF(datepart, startdate, enddate)
+```
+
+### DATEPART
+
+Returns a specific part of a date.
+
+```sql
+DATEPART(datepart, date)
+```
+
+---
+
+# JOINs
+
+## INNER JOIN
+
+Returns matching records from both tables.
+
+```sql
 SELECT *
-FROM (SELECT*)
+FROM TableA
+INNER JOIN TableB
+    ON TableA.ID = TableB.ID;
+```
 
-CTE -> Common table expression [
-	WITH ctename AS (selection)
-	SELECT * FROM ctename	
-]
-CREATE-DROP VIEW tablename AS (selecteddata) -> create a cte object once and use it always 
-ALTER VIEW tablename WITH ENCRYPTION AS -> encrypt views data
-$we cant use ORDER BY in table expression (except you use it with TOP)$
+---
 
+## OUTER JOIN
+
+Outer joins include:
+
+- **LEFT OUTER JOIN**
+- **RIGHT OUTER JOIN**
+- **FULL OUTER JOIN**
+
+### LEFT OUTER JOIN
+
+Returns all records from the left table and matching records from the right table.
+
+### RIGHT OUTER JOIN
+
+Returns all records from the right table and matching records from the left table.
+
+### FULL OUTER JOIN
+
+Returns all records from both tables, including non-matching records.
+
+---
+
+## Multiple JOINs
+
+Multiple tables can be joined together in a single query.
+
+```sql
+SELECT *
+FROM TableA
+INNER JOIN TableB
+    ON TableA.ID = TableB.A_ID
+INNER JOIN TableC
+    ON TableB.ID = TableC.B_ID;
+```
+
+---
+
+## CROSS JOIN
+
+Returns the Cartesian product of two tables.
+
+```sql
+SELECT *
+FROM TableA
+CROSS JOIN TableB;
+```
+
+---
+
+# Variables
+
+### DECLARE
+
+Creates a new variable.
+
+```sql
+DECLARE @NAME AS TYPE = VALUE;
+```
+
+Example:
+
+```sql
+DECLARE @NAME AS VARCHAR(50) = 'John';
+```
+
+### SET
+
+Assigns a value to a variable.
+
+```sql
+SET @NAME = VALUE;
+```
+
+---
+
+# Subqueries
+
+## Inner Query / Subquery
+
+A query can be placed inside another query.
+
+```sql
+SELECT *
+FROM TableA
+WHERE ID IN
+(
+    SELECT ID
+    FROM TableB
+);
+```
+
+- **Inner Query** → The query inside.
+- **Outer Query** → The main query that contains the inner query.
+
+---
+
+## EXISTS
+
+`EXISTS` checks whether a subquery returns any rows.
+
+```sql
+WHERE EXISTS
+(
+    SELECT 1
+    FROM TableB
+    WHERE TableB.ID = TableA.ID
+);
+```
+
+`EXISTS` can be useful when checking for the existence of related records, especially with correlated subqueries.
+
+---
+
+# Set Operators
+
+## INTERSECT
+
+Returns the rows that exist in both result sets.
+
+```sql
+SELECT ...
+INTERSECT
+SELECT ...;
+```
+
+---
+
+## UNION
+
+Combines the result sets of two queries and removes duplicate rows.
+
+```sql
+SELECT ...
+UNION
+SELECT ...;
+```
+
+---
+
+## UNION ALL
+
+Combines the result sets without removing duplicate rows.
+
+```sql
+SELECT ...
+UNION ALL
+SELECT ...;
+```
+
+---
+
+## EXCEPT
+
+Returns rows from the first query that do not exist in the second query.
+
+```sql
+SELECT ...
+EXCEPT
+SELECT ...;
+```
+
+---
+
+# Data Manipulation
+
+## INSERT
+
+Inserts new records into a table.
+
+```sql
+INSERT INTO table_name (field_name)
+VALUES (value);
+```
+
+Multiple values:
+
+```sql
+INSERT INTO table_name (field1, field2)
+VALUES
+    (value1, value2),
+    (value3, value4);
+```
+
+---
+
+## CREATE TABLE
+
+Creates a new table.
+
+```sql
+CREATE TABLE database_name.schema_name.table_name
+(
+    field_name data_type
+);
+```
+
+Example:
+
+```sql
+CREATE TABLE dbo.Users
+(
+    UserID INT,
+    UserName VARCHAR(100)
+);
+```
+
+---
+
+## DROP TABLE
+
+Deletes the table object.
+
+```sql
+DROP TABLE IF EXISTS table_name;
+```
+
+---
+
+## DELETE
+
+Deletes selected rows from a table.
+
+```sql
+DELETE FROM table_name
+WHERE filter;
+```
+
+Without `WHERE`, all rows can be deleted.
+
+---
+
+## TRUNCATE TABLE
+
+Deletes all rows from a table.
+
+```sql
+TRUNCATE TABLE table_name;
+```
+
+It is generally faster and uses less logging than deleting rows individually.
+
+---
+
+## UPDATE
+
+Changes existing data in a table.
+
+```sql
+UPDATE table_name
+SET field_name = new_value
+WHERE filter;
+```
+
+---
+
+## MERGE
+
+Can be used to perform different actions, such as inserting and updating data, based on a matching condition.
+
+```sql
+MERGE INTO target_table AS Target
+USING source_table AS Source
+ON Target.ID = Source.ID
+WHEN MATCHED THEN
+    UPDATE SET Target.Name = Source.Name
+WHEN NOT MATCHED THEN
+    INSERT (ID, Name)
+    VALUES (Source.ID, Source.Name);
+```
+
+---
+
+# OUTPUT
+
+`OUTPUT` can be used to return information about rows affected by `INSERT`, `UPDATE`, `DELETE`, and `MERGE`.
+
+```sql
+OUTPUT INSERTED.*
+```
+
+```sql
+OUTPUT DELETED.*
+```
+
+The `OUTPUT` clause can be useful for logging or retrieving affected data.
+
+---
+
+# IDENTITY
+
+`IDENTITY` automatically generates numeric values for a column.
+
+```sql
+IDENTITY(seed, increment)
+```
+
+Example:
+
+```sql
+ID INT IDENTITY(1,1)
+```
+
+- **1** → Starting value
+- **1** → Increment value
+
+---
+
+# SEQUENCE
+
+A `SEQUENCE` is a database object used to generate sequential numbers.
+
+```sql
+CREATE SEQUENCE sequence_name
+AS data_type
+START WITH constant
+INCREMENT BY constant
+MINVALUE constant
+MAXVALUE constant
+CYCLE;
+```
+
+Options include:
+
+```text
+CYCLE
+NO CYCLE
+
+CACHE
+NO CACHE
+```
+
+Example:
+
+```sql
+CREATE SEQUENCE OrderSequence
+AS INT
+START WITH 1
+INCREMENT BY 1
+MINVALUE 1
+MAXVALUE 100000
+NO CYCLE
+CACHE 10;
+```
+
+---
+
+# SQL Server Database Files
+
+### MDF
+
+**Primary Data File**
+
+Contains the primary data for the database.
+
+### NDF
+
+**Secondary Data File**
+
+Additional data files used by the database.
+
+### LDF
+
+**Log Data File**
+
+Contains transaction log information.
+
+---
+
+# Keys
+
+## Primary Key
+
+A Primary Key:
+
+- Uniquely identifies each row.
+- Cannot contain `NULL`.
+- Does not allow duplicate values.
+
+```sql
+PRIMARY KEY
+```
+
+---
+
+## Foreign Key
+
+A Foreign Key references a key in another table.
+
+```sql
+FOREIGN KEY
+```
+
+It is used to establish relationships between tables.
+
+---
+
+# Derived Tables
+
+A derived table is a subquery used in the `FROM` clause.
+
+```sql
+SELECT *
+FROM
+(
+    SELECT *
+    FROM table_name
+) AS DerivedTable;
+```
+
+---
+
+# CTE — Common Table Expression
+
+A CTE is a temporary named result set that can be referenced by the statement that follows it.
+
+```sql
+WITH CTEName AS
+(
+    SELECT *
+    FROM table_name
+)
+SELECT *
+FROM CTEName;
+```
+
+CTEs can also be recursive and can be useful for hierarchical data.
+
+---
+
+# Views
+
+A View is a database object that stores a query definition and can be queried like a table.
+
+### CREATE VIEW
+
+```sql
+CREATE VIEW view_name AS
+(
+    SELECT ...
+);
+```
+
+Example:
+
+```sql
+CREATE VIEW ActiveUsers AS
+SELECT *
+FROM Users
+WHERE IsActive = 1;
+```
+
+### ALTER VIEW
+
+```sql
+ALTER VIEW view_name AS
+(
+    SELECT ...
+);
+```
+
+---
+
+## WITH ENCRYPTION
+
+`WITH ENCRYPTION` can be used with a view to encrypt its definition.
+
+```sql
+ALTER VIEW view_name
+WITH ENCRYPTION
+AS
+SELECT ...;
+```
+
+---
+
+## WITH SCHEMABINDING
+
+`WITH SCHEMABINDING` binds the view to the underlying objects and prevents changes that would invalidate the view.
+
+```sql
+ALTER VIEW view_name
+WITH SCHEMABINDING
+AS
+SELECT ...
+FROM dbo.TableName;
+```
+
+---
+
+## WITH CHECK OPTION
+
+`WITH CHECK OPTION` can be used to ensure that modifications made through a view satisfy the view's filtering conditions.
+
+```sql
+CREATE VIEW view_name AS
+SELECT *
+FROM table_name
+WHERE condition
+WITH CHECK OPTION;
+```
+
+---
+
+# ORDER BY in Table Expressions
+
+`ORDER BY` generally cannot be used inside a view, CTE, derived table, or subquery unless it is used with an allowed construct such as `TOP` or `OFFSET/FETCH`.
+
+```sql
+SELECT TOP (10)
+    *
+FROM table_name
+ORDER BY column_name;
+```
