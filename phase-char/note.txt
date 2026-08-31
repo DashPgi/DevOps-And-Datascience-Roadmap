@@ -374,3 +374,6 @@ OFFSET [
     LAG () -> Previously selected data
     LEAD () -> Nextly selected data
 ]
+
+Pivot -> Convert vertical to horizontal
+unpivot -> Convert horizontal to vertical
