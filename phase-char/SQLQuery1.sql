@@ -1,3 +1,10 @@
+
+SELECT *
+FROM students
+ORDER BY id
+LIMIT 10 OFFSET 20;
+
+
 Select custid ,orderid,val,
 LOG(val) as pval,
 LEAD(val) as nval

@@ -52,6 +52,9 @@ Grouping set
 - DESC
 
 ---
+# LIMIT 
+
+LIMIT value
 
 # CASE
 
@@ -363,7 +366,10 @@ Scaler function
 CREATE FUNCTION dbname (@cid AS type) RETURN TABLE AS RETURN() -> INLINE function
 $ you cant use loop , variable ,condition in Functions $
 
-### Window Function
+---
+
+# Window Function
+
 SELECT selecteddata 
 fun() OVER(
     PARTITION BY
@@ -384,7 +390,10 @@ OFFSET [
 Pivot -> Convert vertical to horizontal
 unpivot -> Convert horizontal to vertical
 
-### Tamporal Table
+---
+
+# Tamporal Table
+
 CREATE TABLE (
     sysstart datetime,
       GENERATED ALWAYS AS ROW START HIDDEN NOT NULL,
