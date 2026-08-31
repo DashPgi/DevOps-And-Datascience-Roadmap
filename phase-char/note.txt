@@ -43,6 +43,8 @@ Grouping set
 - TOP (n)
 - DISTINCT → Select unique items
 
+CREATE INDEX idx_students_name -> find data with Index
+
 ---
 
 # ORDER BY

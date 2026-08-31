@@ -1,3 +1,6 @@
+SELECT *
+FROM students
+WHERE name = 'Ali';
 
 SELECT *
 FROM students

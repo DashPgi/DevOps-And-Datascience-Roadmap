@@ -3,6 +3,7 @@
 - [x] RDBMS
 - [x] T-SQL
 - [x] SELECT
+- [x] Indexing
 - [x] WHERE
 - [x] ORDER BY
 - [x] GROUP BY
@@ -18,7 +19,7 @@
 - [x] Derivedtable
 - [x] CTE
 - [x] View
-- [ ] Indexing
+
 - [x] Window-function
 - [x] Framing
 - [x] Pivot and Unpivot
