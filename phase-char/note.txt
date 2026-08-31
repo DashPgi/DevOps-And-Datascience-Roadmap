@@ -356,3 +356,11 @@ Scaler function
 
 CREATE FUNCTION dbname (@cid AS type) RETURN TABLE AS RETURN() -> INLINE function
 $ you cant use loop , variable ,condition in Functions $
+
+### Window Function
+SELECT selecteddata 
+fun() OVER(
+    PARTITION BY
+    ORDER BY
+    FRAMING
+)

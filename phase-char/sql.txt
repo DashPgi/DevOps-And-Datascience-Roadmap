@@ -18,4 +18,4 @@
 - [x] CTE
 - [x] View
 - [ ] Indexing
-
+- [x] Window-
