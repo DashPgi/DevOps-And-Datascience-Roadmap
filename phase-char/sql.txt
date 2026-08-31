@@ -19,3 +19,4 @@
 - [x] View
 - [ ] Indexing
 - [x] Window-function
+- [x] Framing

@@ -368,3 +368,9 @@ ROW_NUMBER () -> indexing with row number and ignore duplicate
 RANK () -> indexing with value and ignore ordering
 DENSE_RANK () -> indexing with value and followes ordering 
 NTILE () -> Datas Partitioning
+
+
+OFFSET [
+    LAG () -> Previously selected data
+    LEAD () -> Nextly selected data
+]
