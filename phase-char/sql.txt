@@ -5,6 +5,7 @@
 - [x] SELECT
 - [x] WHERE
 - [x] ORDER BY
+- [x] GROUP BY
 - [x] Set Operator
 - [ ] LIMIT
 - [x] JOIN
@@ -20,3 +21,4 @@
 - [ ] Indexing
 - [x] Window-function
 - [x] Framing
+- [x] Pivot and Unpivot

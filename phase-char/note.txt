@@ -25,6 +25,12 @@ FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → TOP
 
 ---
 
+# GROUP BY
+Cube
+Rollup
+Grouping set
+
+---
 # WHERE / LIKE
 
 **WHERE, LIKE {Wildcard}** → Used when the data does not exactly match.
