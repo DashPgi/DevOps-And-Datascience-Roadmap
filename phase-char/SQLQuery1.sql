@@ -15,3 +15,17 @@ Pivot(sum(Qty) for custid in ([1],[2],[3])) as pvt
 select empid,custid,Qty
 FROM dbo.empcustomer
 Unpivot(Qty) for custid in ([1],[2],[3])) as unpvt
+
+
+CREATE TABLE dbo.Employee(  
+    empid int,
+    CONSTRAINT PK_Employee PRIMARY KEY (empid)
+    empname varchar(20),
+    department varchar(20),
+    salalry int
+    sysstart datetime,
+      GENERATED ALWAYS AS ROW START HIDDEN NOT NULL,
+    sysend datetime,
+      GENERATED ALWAYS AS ROW END HIDDEN NOT NULL,
+    PERIOD FOR SYSTEM_TIME (sysstart, sysend)
+) WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.EmployeeHistory));

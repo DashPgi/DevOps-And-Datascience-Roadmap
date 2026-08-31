@@ -383,3 +383,12 @@ OFFSET [
 
 Pivot -> Convert vertical to horizontal
 unpivot -> Convert horizontal to vertical
+
+### Tamporal Table
+CREATE TABLE (
+    sysstart datetime,
+      GENERATED ALWAYS AS ROW START HIDDEN NOT NULL,
+    sysend datetime,
+      GENERATED ALWAYS AS ROW END HIDDEN NOT NULL,
+    PERIOD FOR SYSTEM_TIME (sysstart, sysend)
+    )
