@@ -426,3 +426,12 @@ else condition
 BEGIN
 END
 starts a block of SQL statements. The block is usually closed with 
+
+## Loop 
+ 
+WHILE condition [
+  BEGIN
+  BREAK
+  CONTINUE
+  END
+]

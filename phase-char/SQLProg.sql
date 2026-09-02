@@ -23,7 +23,18 @@ BEGIN
     PRINT 'HAPPY NEW YEAR';
 END
 else
-
     print 'It is not 2026';
-
 print 'It is not 2026';
+
+
+-- While loop
+DECLARE @i INT = 1;
+WHILE @i < 11
+BEGIN
+i++;
+if @i = 5
+BEGIN
+print 'HALF WAY';
+BREAK;
+END
+GO
