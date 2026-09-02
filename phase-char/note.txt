@@ -435,3 +435,17 @@ WHILE condition [
   CONTINUE
   END
 ]
+
+## Temp Table
+do like a table just with '#' 
+-> CREATE TABLE IF EXIST #Tamptable ()
+can work till sql is on/open (just in session)
+if we must use it in all session we need to youse double sharp -> ##temptable
+
+## Table variable
+
+declare @tablename TABLE ()
+
+## Table Type
+
+CREATE TYPE tabletypename AS TABLE () -> For set a new type for tables
