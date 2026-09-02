@@ -453,3 +453,5 @@ CREATE TYPE tabletypename AS TABLE () -> For set a new type for tables
 ## Dynamic Query
 
 an SQL query built and executed at runtime
+
+## Functions

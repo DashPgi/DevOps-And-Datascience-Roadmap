@@ -48,3 +48,19 @@ EXEC sp_executesql
     @sql,
     N'@city NVARCHAR(50)',
     @city = N'Tehran';
+
+
+-- functions
+CREATE FUNCTION get_student_count(
+    @city NVARCHAR(50)
+    @age INT
+)
+RETURNS INT
+as 
+BEGIN
+    datediff(year, @age, GETDATE())
+    -CASE WHEN MONTH(GETDATE()) < MONTH(@age) THEN 1 ELSE 0 END
+    RETURN @age;
+END
+
+SELECT dbo.get_student_count(18,5);
