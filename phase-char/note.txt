@@ -404,7 +404,9 @@ CREATE TABLE (
     PERIOD FOR SYSTEM_TIME (sysstart, sysend)
     )
 
-# Batch
+# Programing
+
+## Batch
 batch ->[
   select * 
   WHERE
@@ -414,3 +416,13 @@ batch ->[
 -> a group of commands or tasks that are executed together, usually as one unit.
 GO -> for endig batch and turn into next batch
 $ Variable Scope is just in its batch (cant use in the another batch)
+
+## condition statements
+
+if condition
+else condition
+
+## BEGIN 
+BEGIN
+END
+starts a block of SQL statements. The block is usually closed with 
