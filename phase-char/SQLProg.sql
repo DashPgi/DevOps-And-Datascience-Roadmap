@@ -38,3 +38,13 @@ print 'HALF WAY';
 BREAK;
 END
 GO
+
+-- dynamic query
+DECLARE @sql NVARCHAR(MAX);
+
+SET @sql = N'SELECT * FROM students WHERE city = @city';
+
+EXEC sp_executesql
+    @sql,
+    N'@city NVARCHAR(50)',
+    @city = N'Tehran';
