@@ -403,3 +403,14 @@ CREATE TABLE (
       GENERATED ALWAYS AS ROW END HIDDEN NOT NULL,
     PERIOD FOR SYSTEM_TIME (sysstart, sysend)
     )
+
+# Batch
+batch ->[
+  select * 
+  WHERE
+  declare @var 
+  ...
+  ]
+-> a group of commands or tasks that are executed together, usually as one unit.
+GO -> for endig batch and turn into next batch
+$ Variable Scope is just in its batch (cant use in the another batch)
