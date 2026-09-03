@@ -75,3 +75,14 @@ set nocount on; -- -> no count the rows that are affected by the procedure
 -- Trigger
 
 CREATE TRIGGER Trigger ON dbo.Department AFTER UPDATE AS
+
+-- Error handeling
+BEGIN TRY
+    print 10/0
+    print 'No error'
+END TRY
+BEGIN CATCH
+    print 'Error' 
+END CATCH
+
+GO

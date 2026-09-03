@@ -462,6 +462,13 @@ AS BEGIN
 function
 end
 
+## Error handeling
+
+BEGIN TRY
+END TRY
+BEGIN CATCH 
+END CATCH
+---
 # Store Procedures
 
 CREATE PROC procname
