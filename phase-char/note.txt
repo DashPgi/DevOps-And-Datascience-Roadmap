@@ -507,5 +507,11 @@ Shared -> everyone can see or SELECT data when someone is see or SELCET too
 
 ## Isolation Level
 
-- UnCommited 
-- Commited
+- UNCOMMITTED 
+- COMMITTED
+- REPEATEABLE READ 
+  - Exclusive Lock when you update data until UnCommited 
+- SERIALIZABLE
+  - Exclusive Lock until UnCommited
+- SNAPSHOT
+
