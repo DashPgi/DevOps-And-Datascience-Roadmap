@@ -455,3 +455,24 @@ CREATE TYPE tabletypename AS TABLE () -> For set a new type for tables
 an SQL query built and executed at runtime
 
 ## Functions
+
+CREATE FUNCTION functionname (parameter)
+RETURN type 
+AS BEGIN
+function
+end
+
+# Store Procedures
+
+CREATE PROC procname
+parameters
+AS name
+
+# Trigger
+CREATE TRIGGER trigger_name ON table_name AFTER INSERT, UPDATE, DELETE AS BEGIN
+
+- Insted of Trigger
+- After Trigger
+
+- DML -> Just on db and table 
+- DBL -> Just on db and dbs objects

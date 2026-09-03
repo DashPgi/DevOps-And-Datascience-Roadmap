@@ -64,3 +64,14 @@ BEGIN
 END
 
 SELECT dbo.get_student_count(18,5);
+
+-- store procedures
+CREATE PROC get_student_count
+@city NVARCHAR(50)
+@age INT
+AS
+set nocount on; -- -> no count the rows that are affected by the procedure
+
+-- Trigger
+
+CREATE TRIGGER Trigger ON dbo.Department AFTER UPDATE AS
