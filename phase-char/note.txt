@@ -499,3 +499,13 @@ COMIT TRANS
 
 ## Implicit Transaction
 -> System use Transaction when your code need that
+
+## Locks
+
+Exclusive -> No one Can modify data when someone is modifing that
+Shared -> everyone can see or SELECT data when someone is see or SELCET too
+
+## Isolation Level
+
+- UnCommited 
+- Commited
