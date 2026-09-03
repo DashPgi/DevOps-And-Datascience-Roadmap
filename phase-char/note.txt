@@ -483,3 +483,19 @@ CREATE TRIGGER trigger_name ON table_name AFTER INSERT, UPDATE, DELETE AS BEGIN
 
 - DML -> Just on db and table 
 - DBL -> Just on db and dbs objects
+
+# Transaction
+
+- ACID
+  - Atomicity -> All or nothing
+  - Consistency -> all Data are constant and never changing  not dynamic 
+  - Isolation -> Manage permisions Level for controling data
+  - Durablity -> Save data changing ,value, Transaction
+
+## Explicit Transaction
+-> You use Transaction when you need that
+BEGIN TRANS 
+COMIT TRANS
+
+## Implicit Transaction
+-> System use Transaction when your code need that
