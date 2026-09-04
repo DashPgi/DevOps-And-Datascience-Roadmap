@@ -505,6 +505,16 @@ COMIT TRANS
 Exclusive -> No one Can modify data when someone is modifing that
 Shared -> everyone can see or SELECT data when someone is see or SELCET too
 
+## Rollback
+
+-> a SQL command used to undo changes made during a transaction.
+ROLLBACK;
+
+## Deadlock
+
+- >A deadlock happens when two or more transactions are waiting for each other to release locks, so none of them can continue.
+
+
 ## Isolation Level
 
 - UNCOMMITTED 
@@ -522,3 +532,4 @@ Shared -> everyone can see or SELECT data when someone is see or SELCET too
 | **Repeatable Read** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 | **Serializable** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | **Snapshot** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+
