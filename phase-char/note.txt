@@ -510,8 +510,15 @@ Shared -> everyone can see or SELECT data when someone is see or SELCET too
 - UNCOMMITTED 
 - COMMITTED
 - REPEATEABLE READ 
-  - Exclusive Lock when you update data until UnCommited 
 - SERIALIZABLE
-  - Exclusive Lock until UnCommited
 - SNAPSHOT
+  - Exclusive Lock until Commited
+  - Shared Lock For SELECT 
 
+| Isolation Level | SELECT | INSERT | UPDATE | DELETE | Dirty Read | Non-Repeatable Read | Phantom Read |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Read Uncommitted** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Read Committed** | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| **Repeatable Read** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| **Serializable** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| **Snapshot** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
