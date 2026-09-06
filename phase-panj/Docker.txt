@@ -1,5 +1,6 @@
-# 🐳 Phase 5: Docker
+# Docker
 
+- [x] Concept
 - [ ] Image vs Container
 - [ ] Dockerfile
 - [ ] docker build
