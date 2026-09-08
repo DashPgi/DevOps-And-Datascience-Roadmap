@@ -2,10 +2,12 @@
 
 - [x] Concept
 - [ ] Image vs Container
-- [ ] Dockerfile
-- [ ] docker build
-- [ ] docker run
-- [ ] docker logs
+- [x] Dockerfile
+- [x] docker rmi
+- [x] docker save
+- [x] docker build
+- [x] docker run
+- [x] docker logs
 - [ ] Docker Compose
 - [ ] Volume
 - [ ] Networking
