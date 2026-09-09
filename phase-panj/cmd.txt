@@ -1,0 +1,5 @@
+docker info -> show informations
+docker image -> show image's list 
+docker pull nginx -> get a image from docker hub
+docker build -t myapp -> create a image with myapp name
+docker rmi nginx -> remove image
