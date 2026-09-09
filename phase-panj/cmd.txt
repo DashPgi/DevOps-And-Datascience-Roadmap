@@ -1,5 +1,14 @@
+Images
 docker info -> show informations
 docker image -> show image's list 
 docker pull nginx -> get a image from docker hub
 docker build -t myapp -> create a image with myapp name
 docker rmi nginx -> remove image
+
+docker run nginx -> create and run a Container
+docker run -d nginx -> run container on background mode
+docker ps -> show all running container
+docker ps -a -> show all stoped container
+docker stop mynginx -> stop Container
+docker restart mynginx -> restart Container
+docker rm mynginx -> remove Container
