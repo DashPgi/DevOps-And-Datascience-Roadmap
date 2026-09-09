@@ -9,10 +9,13 @@
 - [x] docker run
 - [x] docker logs
 - [x] GUI and CLI
+- [x] Attach 
 - [x] Docker Hub
 - [x] Docker's CMD
 - [x] Log-Drivers
 - [ ] Docker Compose
 - [ ] Volume
 - [ ] Networking
+- [] Registry
+- [] Swarm
 
