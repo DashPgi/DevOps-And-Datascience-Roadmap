@@ -8,6 +8,8 @@
 - [x] docker build
 - [x] docker run
 - [x] docker logs
+- [x] Docker Hub
+- [x] Log-Drivers
 - [ ] Docker Compose
 - [ ] Volume
 - [ ] Networking
