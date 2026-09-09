@@ -9,6 +9,7 @@
 - [x] docker run
 - [x] docker logs
 - [x] Docker Hub
+- [x] Docker's CMD
 - [x] Log-Drivers
 - [ ] Docker Compose
 - [ ] Volume
