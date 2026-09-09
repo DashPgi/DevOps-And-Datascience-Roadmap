@@ -1,13 +1,14 @@
 # Docker
 
 - [x] Concept
-- [ ] Image vs Container
+- [x] Image vs Container
 - [x] Dockerfile
 - [x] docker rmi
 - [x] docker save
 - [x] docker build
 - [x] docker run
 - [x] docker logs
+- [x] GUI and CLI
 - [x] Docker Hub
 - [x] Docker's CMD
 - [x] Log-Drivers
