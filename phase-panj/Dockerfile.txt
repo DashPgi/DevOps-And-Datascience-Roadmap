@@ -1,5 +1,6 @@
-FROM ubuntu:latest -> base
+FROM ubuntu:latest -> pull base
 MAINTAINER PGI -> arthur
 RUN apt update && apt install -y apache2 && apt clean -> 
 RUN ehco "Hello World" > index.html
 EXPOSE 80 -> port
+CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]
