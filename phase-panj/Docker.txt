@@ -14,6 +14,7 @@
 - [x] Docker Hub
 - [x] Docker's CMD
 - [x] Log-Drivers
+- [x] Data-Propagation
 - [ ] Docker Compose
 - [x] Volume
 - [ ] Networking

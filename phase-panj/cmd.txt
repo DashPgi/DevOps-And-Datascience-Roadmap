@@ -15,3 +15,8 @@ docker ps -a -> show all stoped container
 docker stop mynginx -> stop Container
 docker restart mynginx -> restart Container
 docker rm mynginx -> remove Container
+
+
+Volume
+docker volume create volname -> create a volume
+var/lib/docker -> where the volume is
