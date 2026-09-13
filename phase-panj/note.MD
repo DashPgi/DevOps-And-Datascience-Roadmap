@@ -1,0 +1,12 @@
+# Type of Volume
+## Volume
+- Managed by docker 
+- Saving data permanetly
+## Bind Mount 
+- Specific path on the host
+- for develop and - access to files
+## tmpfs Mount 
+- hosted by RAM 
+- Sensitive and Temporary data
+## Overlay 2 
+- docker storage driver

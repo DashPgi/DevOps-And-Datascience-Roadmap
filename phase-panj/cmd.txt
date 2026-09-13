@@ -20,3 +20,6 @@ docker rm mynginx -> remove Container
 Volume
 docker volume create volname -> create a volume
 var/lib/docker -> where the volume is
+docker volume create myvolume && docker run -v myvolume:/app/data myimage -> for normal vol
+docker run --tmpfs /app/temp myimage -> for tmpfs 
+docker run -v /home/user/project:/app myimage -> for Bind Mount
