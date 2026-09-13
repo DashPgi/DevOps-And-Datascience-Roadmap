@@ -4,6 +4,7 @@ docker image -> show image's list
 docker pull nginx -> get a image from docker hub
 docker build -t myapp -> create a image with myapp name
 docker rmi nginx -> remove image
+docker build . -> Create image with docker file
 
 docker run nginx -> create and run a Container
 docker run -d nginx -> run container on background mode

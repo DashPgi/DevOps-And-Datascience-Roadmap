@@ -1,0 +1,8 @@
+FROM openjdk:17-jdk
+MAINTAINER PGI
+LABEL env=production 
+ENV APPAREA /data/app
+RUN mdkri -p $APPAREA
+add jenkins.war $APPAREA
+EXPOSE 80
+CMD ["java","-kar","jenkins.war"]
