@@ -5,6 +5,8 @@ docker pull nginx -> get a image from docker hub
 docker build -t myapp -> create a image with myapp name
 docker rmi nginx -> remove image
 docker build . -> Create image with docker file
+docker image save -o imagename.tar imageid  -> for save image 
+docker image load -i imagename.tar -> for load image
 
 docker run nginx -> create and run a Container
 docker run -d nginx -> run container on background mode
