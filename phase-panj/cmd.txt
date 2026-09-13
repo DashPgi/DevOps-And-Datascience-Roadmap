@@ -23,3 +23,6 @@ var/lib/docker -> where the volume is
 docker volume create myvolume && docker run -v myvolume:/app/data myimage -> for normal vol
 docker run --tmpfs /app/temp myimage -> for tmpfs 
 docker run -v /home/user/project:/app myimage -> for Bind Mount
+docer volume mount -> Link a dockervol to dockercontainer
+docker run -v myvolume:/data:ro nginx -> set docker vol to Read-Only
+docker run -v /app/data myimage ->  create a Anonymous

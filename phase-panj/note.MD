@@ -10,3 +10,7 @@
 - Sensitive and Temporary data
 ## Overlay 2 
 - docker storage driver
+## Anonymous
+- hard to manage
+- save data 
+- not good for important data
