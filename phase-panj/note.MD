@@ -21,3 +21,7 @@
 - Null
 
 **Busybox** : best package's tool for networking
+
+**Mac Vlan** : Independent network interface in docker
+
+**Port Mapping** : A technique for connecting a container to the host os
