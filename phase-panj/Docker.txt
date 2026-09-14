@@ -17,7 +17,7 @@
 - [x] Data-Propagation
 - [ ] Docker Compose
 - [x] Volume
-- [ ] Networking
+- [x] Networking
 - [] Registry
 - [] Swarm
 
