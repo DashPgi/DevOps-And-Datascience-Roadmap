@@ -26,3 +26,10 @@ docker run -v /home/user/project:/app myimage -> for Bind Mount
 docer volume mount -> Link a dockervol to dockercontainer
 docker run -v myvolume:/data:ro nginx -> set docker vol to Read-Only
 docker run -v /app/data myimage ->  create a Anonymous
+
+Networking
+docker network create -> create a new network
+docker network connect -> connect a container to network
+docker network ls -> list and show all network
+docker network disconnect -> disconnect network
+docker network  prune -> remove all unused network

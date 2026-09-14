@@ -14,3 +14,8 @@
 - hard to manage
 - save data 
 - not good for important data
+
+# Networking
+- Bridge
+- Host
+- Null
