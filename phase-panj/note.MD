@@ -66,3 +66,7 @@ command
 **Registry** = a service that stores and distributes Docker images
 
 **Repository** = a collection of related images within a registry, usually identified by a project/image name
+
+# Swarm 
+
+A tool for manage containers and Orchestrators 
