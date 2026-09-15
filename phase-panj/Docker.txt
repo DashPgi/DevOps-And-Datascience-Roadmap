@@ -18,6 +18,6 @@
 - [x] Docker Compose
 - [x] Volume
 - [x] Networking
-- [] Registry
+- [x] Registry
 - [] Swarm
 

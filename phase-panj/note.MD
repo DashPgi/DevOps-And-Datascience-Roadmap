@@ -43,3 +43,26 @@
 command
 - stop -> just for stop
 - down -> for stop and remove containers and networks
+
+# Registry
+
+
+
+    Docker Hub (Registry)
+    │
+    ├── nginx (Repository)
+    │   ├── nginx:latest
+    │   ├── nginx:1.27
+    │   └── nginx:alpine
+    │
+    ├── redis (Repository)
+    │   ├── redis:latest
+    │   └── redis:7
+    │
+    └── mysql (Repository)
+        ├── mysql:latest
+        └── mysql:8
+
+**Registry** = a service that stores and distributes Docker images
+
+**Repository** = a collection of related images within a registry, usually identified by a project/image name
