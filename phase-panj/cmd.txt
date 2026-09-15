@@ -37,3 +37,4 @@ docker network  inspect -> show all details
 
 Compose
 docker compose -f ['filepath' For custome name file .yml] up -> create and start a new container
+docker compose -f ['filepath' For custome name file .yml] up -d -> create and start a multi container

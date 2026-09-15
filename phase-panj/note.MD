@@ -38,3 +38,8 @@
         Servicename :
             Servicedetail
     ```
+- useable for config multi container
+
+command
+- stop -> just for stop
+- down -> for stop and remove containers and networks
