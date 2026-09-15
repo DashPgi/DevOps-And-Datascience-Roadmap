@@ -19,5 +19,6 @@
 - [x] Volume
 - [x] Networking
 - [x] Registry
-- [] Swarm
+- [x] Load-balance
+- [x] Swarm
 
