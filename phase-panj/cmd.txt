@@ -34,3 +34,6 @@ docker network ls -> list and show all network
 docker network disconnect -> disconnect network
 docker network  prune -> remove all unused network
 docker network  inspect -> show all details
+
+Compose
+docker compose -f ['filepath' For custome name file .yml] up -> create and start a new container

@@ -15,7 +15,7 @@
 - [x] Docker's CMD
 - [x] Log-Drivers
 - [x] Data-Propagation
-- [ ] Docker Compose
+- [x] Docker Compose
 - [x] Volume
 - [x] Networking
 - [] Registry
