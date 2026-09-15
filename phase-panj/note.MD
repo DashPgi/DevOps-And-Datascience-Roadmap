@@ -25,3 +25,16 @@
 **Mac Vlan** : Independent network interface in docker
 
 **Port Mapping** : A technique for connecting a container to the host os
+
+# Compose
+
+**a manifest file for specific data (like log or cmd) with .yml format**
+
+- useable for automate
+- structure : 
+    ```
+    Version
+    Services :
+        Servicename :
+            Servicedetail
+    ```
