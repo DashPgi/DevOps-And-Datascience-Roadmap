@@ -22,3 +22,4 @@
 - [x] Load-balance
 - [x] Swarm
 - [x] Orchestrator 
+- [x] Lifecycle

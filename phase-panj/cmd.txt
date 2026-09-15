@@ -39,3 +39,11 @@ Compose
 docker compose -f ['filepath' For custome name file .yml] up -> create and start a new container
 docker compose -f ['filepath' For custome name file .yml] up -d -> create and start a multi container
 docker compose restart servicename -> Restart any service that has stopped.
+
+Swarm 
+docker swarm ca -> display and rotate the root
+docker swarm init -> initialize  a swarm 
+docker swarm join ->  join a swarm as a node [and/or] manager 
+docker swarm  leave -> leave the swarm 
+docker swarm unlock -> unlock swarm 
+docker swarm update -> update swarm 
