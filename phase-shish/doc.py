@@ -1,3 +1,4 @@
+# Args
 def multiply(*args):
     print(args)
     x = 1
@@ -36,3 +37,12 @@ def apply(*args,operator):
 
 operator = str(input('Please enter operator: +, *, /, -: '))
 print(apply(1, 2, 3, operator=operator))
+
+# key args
+
+def named(**kwargs):
+    print(kwargs)
+
+dict = {"name" : "parsa","age":25}
+
+named(**dict)
