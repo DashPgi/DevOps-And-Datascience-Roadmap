@@ -1,5 +1,6 @@
-# 🌐 Phase 6: API
+# API
 
+- [x] API
 - [ ] REST
 - [ ] HTTP Methods
 - [ ] FastAPI
