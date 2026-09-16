@@ -1,6 +1,3 @@
-from numpy.ma.core import divide
-
-
 def multiply(*args):
     print(args)
     x = 1
