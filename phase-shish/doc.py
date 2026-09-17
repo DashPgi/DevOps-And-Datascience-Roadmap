@@ -46,3 +46,12 @@ def named(**kwargs):
 dict = {"name" : "parsa","age":25}
 
 named(**dict)
+
+# Type Hinting
+
+from typing import List
+def list_avg(data : List)  -> float:
+    return sum(list) / len(list)
+
+data = 123
+list_avg(data)
