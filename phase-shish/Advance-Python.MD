@@ -4,3 +4,4 @@
 - [x] Type-Hinting
 - [x] Custom-error-classes
 - [x] First-Class-Functions
+- [x] Decorators 

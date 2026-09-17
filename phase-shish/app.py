@@ -1,28 +1,18 @@
-# Custom error classes
-class TooManyPagesReadError(ValueError):
-    pass
+# Decorators
 
-class Book :
-    def __init__(self, name : str, page_count: int):
-        self.name = name
-        self.page_count = page_count
-        self.page_read = 0
+users = {"usrname" : "aria", "access_lvl": "admin"}
 
-    def __repr__(self):
-        return f"Book({self.name}, {self.page_count}, {self.page_read})"
+def get_admin_password():
+    return "1234"
 
-    def read(self, pages : int):
-        if self.page_read + pages > self.page_count:
-            raise TooManyPagesReadError(
-                f"You tried to read {self.page_read + pages} pages, but you only have {self.page_count} pages."
-            )
-        self.page_read += pages
-        print(self.page_read)
+def make_secure(func):
+    def secure_function():
+        if users["access_lvl"] == "admin":
+            return func()
+        else:
+            "no admin permissions"
+    return secure_function
 
-python101 = Book("Python", 50)
+get_admin_password = make_secure(get_admin_password)
 
-try :
-    python101.read(66)
-    python101.read(60)
-except TooManyPagesReadError as e:
-    print(e)
+print(get_admin_password())
