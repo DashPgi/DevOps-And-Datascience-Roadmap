@@ -3,3 +3,4 @@
 - [x] Unpacking Keyword Arguments
 - [x] Type-Hinting
 - [x] Custom-error-classes
+- [x] First-Class-Functions
