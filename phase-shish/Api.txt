@@ -5,6 +5,7 @@
 - [x] GET
 - [x] POST
 - [x] REST
+- [x] .venv
 - [ ] HTTP Methods
 - [ ] FastAPI
 - [ ] Flask
