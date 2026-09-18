@@ -1,6 +1,7 @@
 # API
 
 - [x] API
+- [x] End-point
 - [x] GET
 - [x] POST
 - [x] REST
