@@ -1,7 +1,9 @@
 # API
 
 - [x] API
-- [ ] REST
+- [x] GET
+- [x] POST
+- [x] REST
 - [ ] HTTP Methods
 - [ ] FastAPI
 - [ ] Flask
