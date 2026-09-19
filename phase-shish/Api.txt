@@ -5,6 +5,8 @@
 - [x] GET
 - [x] POST
 - [x] REST
+- [x] curl
+- [x] Json
 - [x] .venv
 - [ ] HTTP Methods
 - [ ] FastAPI
