@@ -2,6 +2,33 @@
 
 **(Application Programming Interface)** : is an interface that allows software applications to communicate with each other.
 
+### Client
+The system that sends the request.
+
+Examples:
+```
+- Browser
+|
+- Mobile app
+|
+- Python application
+```
+### Host
+The server/address where the service is running.
+
+Example:
+```
+api.example.com
+```
+
+### Endpoint
+A specific URL/path used to access a resource or API function.
+
+Example:
+```
+GET https://api.example.com/users
+```
+
 # Type of API
 **APIs can be categorized in different ways** :
 ### By architecture
@@ -41,3 +68,4 @@ Delete → DELETE
 ```
 
 **Main difference: GET usually sends parameters through the URL, while POST usually sends data in the request body.**
+
