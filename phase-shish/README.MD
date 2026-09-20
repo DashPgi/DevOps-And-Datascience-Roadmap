@@ -69,3 +69,17 @@ Delete → DELETE
 
 **Main difference: GET usually sends parameters through the URL, while POST usually sends data in the request body.**
 
+## .venv
+**.venv is commonly a Python Virtual Environment.**
+
+## curl
+**curl is a command-line tool for sending requests and receiving responses, commonly over HTTP.**
+## Json
+**JSON (JavaScript Object Notation) is a text-based format for storing and exchanging data, widely used in APIs.**
+```
+{
+    "name" : "be to che",
+    "age" : 00,
+    "store" : "pgstore"
+}
+```
