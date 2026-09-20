@@ -10,7 +10,7 @@
 - [x] Client
 - [x] Host
 - [x] .venv
-- [ ] HTTP Methods
+- [x] HTTP Methods
 - [ ] FastAPI
 - [ ] Flask
 - [ ] JWT
