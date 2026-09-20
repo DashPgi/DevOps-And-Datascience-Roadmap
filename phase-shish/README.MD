@@ -14,3 +14,12 @@
 1. **Public API** : Available to external developers.
 2. **Private API** : Used internally within an organization.
 3. **Partner API** : Available to specific business partners.
+
+# GET and POST
+GET and POST are two HTTP methods commonly used with APIs.
+| Method   | Purpose                 |
+| -------- | ----------------------- |
+| **GET**  | Retrieve data           |
+| **POST** | Send data / create data |
+
+**Main difference: GET usually sends parameters through the URL, while POST usually sends data in the request body.**
