@@ -83,3 +83,19 @@ Delete → DELETE
     "store" : "pgstore"
 }
 ```
+
+# Flask
+**Flask is a lightweight Python web framework used to build web applications and APIs.**
+
+Flask = A Python framework for building web servers and APIs.
+
+Example : 
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.get("/users")
+def users():
+    return {"name": "Ali", "age": 20}
+```
