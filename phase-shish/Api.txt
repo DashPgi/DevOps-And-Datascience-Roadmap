@@ -12,7 +12,7 @@
 - [x] .venv
 - [x] HTTP Methods
 - [x] FastAPI
-- [] Flask
+- [x] Flask
 - [ ] JWT
 - [ ] Swagger
 
