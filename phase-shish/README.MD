@@ -99,3 +99,11 @@ app = Flask(__name__)
 def users():
     return {"name": "Ali", "age": 20}
 ```
+# FastAPI
+FastAPI is a modern Python web framework mainly designed for building APIs.It provides:
+
+- High performance
+- REST API support
+- Data validation with Pydantic
+- Automatic API documentation
+- async/await support
