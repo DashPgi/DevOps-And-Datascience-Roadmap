@@ -156,6 +156,7 @@ Data
 ```
 #### Sinature
 Verification
+- (base64(header) + base64(header))
 ```
 {
     Hashcode{
