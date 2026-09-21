@@ -14,5 +14,5 @@
 - [x] FastAPI
 - [x] Flask
 - [x] JWT
-- [ ] Swagger
+- [x] Swagger
 

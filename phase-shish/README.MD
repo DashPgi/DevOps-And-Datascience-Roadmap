@@ -164,3 +164,8 @@ Verification
     }
 }
 ```
+
+
+# Swagger
+
+Swagger is a set of tools used to design, document, and test APIs. It is closely associated with the OpenAPI Specification.
