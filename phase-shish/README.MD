@@ -107,3 +107,27 @@ FastAPI is a modern Python web framework mainly designed for building APIs.It pr
 - Data validation with Pydantic
 - Automatic API documentation
 - async/await support
+
+# JWT
+
+### User Authentication
+- Cookie-based Authentication
+- Token-based Authentication
+    ```
+    Request : 
+        web.app ---- {Passwrd,usrname} ---> Server/API
+    Response : 
+        web.app <--- {Token} ---- Server/API
+    Repeat : 
+        web.app <--- {Token} ---> Server/API
+    ```
+- Session-based Authentication
+    ```
+    Request : 
+    Client ---- {Passwrd,usrname} ---> Server
+    Response : 
+    Client <--- {Authentication} ---- Server
+    Repeat :
+    Client ---- {Passwrd,usrname} ---> Server
+    Client <--- {Authentication} ---- Server
+    ```

@@ -13,6 +13,6 @@
 - [x] HTTP Methods
 - [x] FastAPI
 - [x] Flask
-- [ ] JWT
+- [x] JWT
 - [ ] Swagger
 
