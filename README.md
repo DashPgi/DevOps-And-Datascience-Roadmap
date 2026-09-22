@@ -7,6 +7,7 @@
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/made%20with-%F0%9F%92%BB%20%2B%20%E2%98%95-blue)
 ![Phases](https://img.shields.io/badge/phases-8-informational)
+![Completed](https://img.shields.io/badge/completed-6%2F8-success)
 
 </div>
 
@@ -15,7 +16,7 @@
 ## 📖 About
 
 This repository isn't a tutorial — it's my **own roadmap**, built while I learn.
-Every checkbox here represents something I've actually studied, practiced, or built.
+Every checkbox in [`roadmap.md`](./roadmap.md) represents something I've actually studied, practiced, or built.
 
 I'm sharing it publicly because:
 - 🧭 It keeps me accountable — everyone can see what I've done (and what I haven't yet).
@@ -33,9 +34,9 @@ If you're on a similar path, feel free to fork it, star it, or open a discussion
 | 1 | 🐧 Linux & Networking | ✅ Done |
 | 2 | 🐍 Python | ✅ Done |
 | 3 | 🔀 Git & GitHub | ✅ Done |
-| 4 | 🗄️ SQL | 🔲 Not started |
-| 5 | 🐳 Docker | 🔲 Not started |
-| 6 | 🌐 APIs (REST, FastAPI, Flask) | 🔲 Not started |
+| 4 | 🗄️ SQL | ✅ Done |
+| 5 | 🐳 Docker | ✅ Done |
+| 6 | 🌐 APIs (REST, Flask, FastAPI, JWT) | ✅ Done |
 | 7 | ☁️ Cloud Fundamentals | 🔲 Not started |
 | 8 | ⚙️ CI/CD | 🔲 Not started |
 
@@ -75,15 +76,20 @@ After the core 8 phases, the path splits into two specializations:
 ```
 📦 DevOps-And-Datascience-Roadmap
 ├── 📄 roadmap.md          # The complete, detailed checklist
-├── 📁 phase-yek/          # Phase 1 notes & practice
-├── 📁 phase-do/           # Phase 2 notes & practice
-├── 📁 phase-se/           # Phase 3 notes & practice
-├── 📁 phase-char/         # Phase 4 notes & practice
-├── 📁 phase-panj/         # Phase 5 notes & practice
-├── 📁 phase-shish/        # Phase 6 notes & practice
-├── 📁 phase-haft/         # Phase 7 notes & practice
-└── 📁 phase-hasht/        # Phase 8 notes & practice
+├── 📄 LICENSE             # MIT License
+├── 📁 Phase-1/            # Linux & Networking — notes + practice
+│   ├── linux/
+│   └── network/
+├── 📁 Phase-2/            # Python — notes + practice
+├── 📁 Phase-3/            # Git — notes + practice
+├── 📁 Phase-4/            # SQL — notes, queries, transactions
+├── 📁 Phase-5/            # Docker — notes, Dockerfiles, commands
+├── 📁 Phase-6/            # API — REST, Flask, FastAPI, JWT, Swagger
+├── 📁 phase-haft/         # Phase 7: Cloud (not started yet)
+└── 📁 phase-hasht/        # Phase 8: CI/CD (not started yet)
 ```
+
+> 📌 Note: Phases 1–6 use English folder names (`Phase-1` … `Phase-6`). Phases 7–8 are still named in Persian transliteration (`phase-haft`, `phase-hasht`) since I haven't started them yet — I'll rename them to `Phase-7` / `Phase-8` once I begin.
 
 ---
 
@@ -94,6 +100,12 @@ Most roadmaps pick one lane. I'm deliberately combining both because:
 - Data Science teaches me **how to make sense of data** — statistics, ML, and turning numbers into decisions.
 
 Together, they cover both the infrastructure and the intelligence layer of modern software — and that overlap is exactly where I want to grow.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
