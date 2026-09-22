@@ -19,7 +19,7 @@
 - [x] echo
 - [x] alias
 - [x] ln
-- [x] tar 
+- [x] tar
 - [x] find
 - [x] grep
 
@@ -30,7 +30,6 @@
 - [x] stderr
 - [x] BashIO
 - [x] BashScript
-
 
 ## Users & Permissions
 
@@ -49,7 +48,7 @@
 
 ## Processes
 
-- [x] partiion
+- [x] partition
 - [x] filesystem
 - [x] mount
 - [x] jobs
@@ -80,7 +79,6 @@
 - [x] ufw
 - [x] iptables
 
-
 ---
 
 # 🐍 Phase 2: Python
@@ -97,10 +95,9 @@
 - [x] pip
 - [x] requests
 
-
 ---
 
-## Phase 3: Git
+# 🔀 Phase 3: Git
 
 - [x] git init
 - [x] git add
@@ -109,10 +106,10 @@
 - [x] git pull
 - [x] Branch
 - [x] git config
-- [x] diff&patch
-- [x] Track 
+- [x] diff & patch
+- [x] Track
 - [x] Stage
-- [x] Revert	
+- [x] Revert
 - [x] Merge
 - [x] Conflict
 - [x] Rebase
@@ -120,48 +117,80 @@
 - [x] .gitignore
 - [x] remote
 
-
-
 ---
 
 # 🗄️ Phase 4: SQL
 
-- [ ] SELECT
-- [ ] WHERE
-- [ ] ORDER BY
-- [ ] LIMIT
-- [ ] JOIN
-- [ ] GROUP BY
-- [ ] HAVING
-- [ ] CTE
-- [ ] Indexing
-
+- [x] RDBMS
+- [x] T-SQL
+- [x] SELECT
+- [x] Indexing
+- [x] WHERE
+- [x] ORDER BY
+- [x] GROUP BY
+- [x] Set Operator
+- [x] LIMIT
+- [x] JOIN
+- [x] Manipulating Data
+- [x] HAVING
+- [x] EXISTS
+- [x] Sub-Query
+- [x] IN
+- [x] Derived Table
+- [x] CTE
+- [x] View
+- [x] Querying
+- [x] Programming (T-SQL)
+- [x] Window Function
+- [x] Framing
+- [x] Pivot & Unpivot
+- [x] Temporal Table
+- [x] Transaction
+- [x] Normal Forms (1NF, 2NF, 3NF)
+- [x] Referential Actions (NO ACTION / CASCADE / SET NULL / SET DEFAULT)
 
 ---
 
 # 🐳 Phase 5: Docker
 
-- [ ] Image vs Container
-- [ ] Dockerfile
-- [ ] docker build
-- [ ] docker run
-- [ ] docker logs
-- [ ] Docker Compose
-- [ ] Volume
-- [ ] Networking
-
+- [x] Concept
+- [x] Image vs Container
+- [x] Dockerfile
+- [x] docker build
+- [x] docker run
+- [x] docker rmi
+- [x] docker save / load
+- [x] docker logs
+- [x] GUI and CLI
+- [x] Attach
+- [x] Docker Hub
+- [x] Docker CMD
+- [x] Log Drivers
+- [x] Data Propagation
+- [x] Docker Compose
+- [x] Volume
+- [x] Networking
+- [x] Registry
+- [x] Load Balancing
+- [x] Swarm
+- [x] Orchestrator
+- [x] Lifecycle
 
 ---
 
 # 🌐 Phase 6: API
 
-- [ ] REST
-- [ ] HTTP Methods
-- [ ] FastAPI
-- [ ] Flask
-- [ ] JWT
-- [ ] Swagger
-
+- [x] REST
+- [x] HTTP Methods (GET/POST/PUT/PATCH/DELETE/HEAD/OPTIONS/CONNECT/TRACE)
+- [x] Client / Host / Endpoint concepts
+- [x] Flask
+- [x] FastAPI
+- [x] JWT (Header / Payload / Signature)
+- [x] Authentication (Cookie-based / Token-based / Session-based)
+- [x] Swagger / OpenAPI
+- [x] JSON
+- [x] curl
+- [x] venv (API context)
 
 ---
 
@@ -174,7 +203,6 @@
 - [ ] VPC
 - [ ] Security Group
 
-
 ---
 
 # ⚙️ Phase 8: CI/CD
@@ -184,7 +212,6 @@
 - [ ] YAML
 - [ ] Secrets
 - [ ] Automated Tests
-
 
 ---
 
@@ -196,7 +223,6 @@
 - [ ] Prometheus
 - [ ] Grafana
 - [ ] Security
-
 
 ---
 
