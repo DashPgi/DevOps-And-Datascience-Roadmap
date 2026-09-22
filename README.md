@@ -19,7 +19,7 @@ This repository isn't a tutorial — it's my **own roadmap**, built while I lear
 Every checkbox in [`roadmap.md`](./roadmap.md) represents something I've actually studied, practiced, or built.
 
 I'm sharing it publicly because:
-- 🧭 It keeps me accountable — everyone can see what I've done (and what I haven't yet).
+- 🧭 This helps me improve.  — everyone can see what I've done (and what I haven't yet) and say that.
 - 🌱 It might help someone else who's starting the same journey.
 - 📌 It's a living document — it grows as I grow.
 
