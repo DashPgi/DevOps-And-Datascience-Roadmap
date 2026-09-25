@@ -1,5 +1,6 @@
 # ☁️ Phase 7: Cloud
 - [x] Cloud-Computing
+- [x] Could-Principles
 - [ ] IaaS/PaaS/SaaS
 - [ ] Virtual Machine
 - [ ] Storage
