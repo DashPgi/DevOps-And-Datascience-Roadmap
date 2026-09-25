@@ -57,4 +57,6 @@ ForExample :
 - Oracle 
 - Vmware 
 ### Hybrid CDM
+A Combination of public and private cloud service
 ### Community CDM
+A cloud computing service where infrastructure and services are shared by a group or something like that 
