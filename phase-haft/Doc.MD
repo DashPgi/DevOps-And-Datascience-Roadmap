@@ -60,3 +60,7 @@ ForExample :
 A Combination of public and private cloud service
 ### Community CDM
 A cloud computing service where infrastructure and services are shared by a group or something like that 
+### Multi-Tenancy CDM
+A cloud computing service where multiple customers share the same infrastructure and resources
+### Single-Tenancy CDM
+A cloud computing service where the customer has own dedicated infrastructure and resources
