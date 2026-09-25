@@ -40,3 +40,21 @@ Delivered all platform , tools and software for developers
 ForExample :
 - Manage code
 - Run code
+
+# Cloud Deployment Models
+### Public CDM
+A cloud computing service that is owned and operated by third party provider and made available to the public over the intrenet **(somtimes only user and providers have an accesss btw)**  
+ForExmaple : 
+- AWS
+- Azure
+- GCP
+### Private CDM
+A cloud computing service that is owned and operated by single organization for privatly use **(No one have an access except for user)**
+ForExample :
+- IBM 
+- Azure Stack 
+- Open Stack 
+- Oracle 
+- Vmware 
+### Hybrid CDM
+### Community CDM
