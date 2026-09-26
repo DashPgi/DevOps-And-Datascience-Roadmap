@@ -2,7 +2,7 @@
 - [x] Cloud-Computing
 - [x] Could-Principles
 - [x] Cloud-Deployment-Models
-- [ ] IaaS/PaaS/SaaS
+- [x] IaaS/PaaS/SaaS
 - [ ] Virtual Machine
 - [ ] Storage
 - [ ] IAM
