@@ -5,6 +5,8 @@
 - [x] IaaS/PaaS/SaaS
 - [x] Scaling
 - [x] Redundancy 
+- [x] High Availability
+- [x] Disaster Recovery
 - [ ] Virtual Machine
 - [ ] Storage
 - [ ] IAM
