@@ -107,7 +107,7 @@ A cloud computing service where multiple customers share the same infrastructure
 
 A cloud computing service where the customer has own dedicated infrastructure and resources
 
-## Access Level
+## Access Level Management
 
 Who-manage? | On-site | IaaS | PaaS | SaaS |
 ---|----|-----|-----|---
@@ -120,3 +120,4 @@ Virtualization | You-Manage | Sp-Manage | Sp-Manage | Sp-Manage
 Servers | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 Storage | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 Networking | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
+

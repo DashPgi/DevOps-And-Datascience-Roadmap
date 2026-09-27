@@ -3,6 +3,7 @@
 - [x] Could-Principles
 - [x] Cloud-Deployment-Models
 - [x] IaaS/PaaS/SaaS
+- [x] Scaling
 - [ ] Virtual Machine
 - [ ] Storage
 - [ ] IAM
