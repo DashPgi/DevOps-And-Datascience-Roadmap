@@ -121,3 +121,19 @@ Servers | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 Storage | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 Networking | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 
+# Scalling
+A Scalling is the process of increasing or decreasing the resources of a cloud system to meel the changing need of an organization
+## Vertical Scalling
+**Just increasing and decreasing the resource** of a single server
+- Easy to manage
+- Efficient
+- Workload that requires high performance 
+- Cost-Effective
+## Horizontal Scalling 
+**adding or removing servers from a system** to increasing or decreasing resources 
+- More scalable
+- Can handle more traffic 
+- add more nodes as demand increases easy to balance betwen nodes and workloads
+- Expensive
+## Hybrid Scalling 
+Combination Vertical and Horizontal
