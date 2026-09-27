@@ -4,6 +4,7 @@
 - [x] Cloud-Deployment-Models
 - [x] IaaS/PaaS/SaaS
 - [x] Scaling
+- [x] Redundancy 
 - [ ] Virtual Machine
 - [ ] Storage
 - [ ] IAM

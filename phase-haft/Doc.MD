@@ -137,3 +137,39 @@ A Scalling is the process of increasing or decreasing the resources of a cloud s
 - Expensive
 ## Hybrid Scalling 
 Combination Vertical and Horizontal
+# Redundancy 
+Is the process of creating multiple copies of data or resources to ensure the availabily and reliablity of system (**Like Backup**)
+### High Availablity
+Helps to ensure that systems continue to operate when failure occurs
+
+**Fault-Tolerance** > **High-Availablity** *like* **100** > **99.9%**
+### Improved Performance 
+Provide backup system in case of a failure
+### Increased Resiliency
+Ready for any attack and recovery in fastest time
+### Imporved Security
+---
+### Load-Balancing
+Distributes incoming traffic to multiple servers
+### Failover
+transport to secendary system in emergency events
+### Disaster-Recovery
+Recovery systems after any natural or cyber disaster and attack
+
+#### Type of DR :
+ Feature | Cold-site | Warm-Site | Hot-Site
+ ---|---|---|---|
+ Secondary Location | + | + | + 
+ Equipment at Location | - | + | +
+ Connectivity at Location | - | + | +
+ Active before failover | - | - | +
+ Outage measured in | Weeks | Days-Hours | Hours-Minutes  
+### Fault Tolerance
+Provides a backup in case of failures or errors,which helps to prevent data loss and minimize downtime
+
+## Advantage
+- Minimize Downtime
+- Improved Performance
+- Increased resiliency
+- Improved Security
+- Enhanced user experience
