@@ -10,6 +10,7 @@
 - [x] SDN
 - [x] IaC
 - [x] FireWall 
+- [x] DNS
 - [ ] Virtual Machine
 - [ ] Storage
 - [ ] IAM
