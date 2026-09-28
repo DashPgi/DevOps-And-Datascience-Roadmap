@@ -173,3 +173,9 @@ Provides a backup in case of failures or errors,which helps to prevent data loss
 - Increased resiliency
 - Improved Security
 - Enhanced user experience
+
+# SDN
+Software Definde Networking
+
+$\rightarrow$ Seprate Network from harfware and manage easier
+- Software controller or APIs
