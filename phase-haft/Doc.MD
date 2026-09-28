@@ -257,3 +257,22 @@ Used to administrator the routers and switches inside of the network
 For control and config
 * Forwarding-table
 * Routing-table
+# DNS
+Domain Name Server
+## 5 Level of DNS Hierarchy
+1. **Root**
+    - Root name server
+2. **TLD**
+    - Top-level domain
+3. **SLD**
+    - Second-level domain
+4. **Subdomain**
+    - Server underneath the SDL
+5. **Host**
+# Load Balancing
+### Layer 4
+Uses the transport layer (TCP/UDP) to distribute traffic among servers
+### Layer 7
+Uses application layer (HTTP/HTTPS) to distribute 
+### Cloud-based
+### DNS-based
