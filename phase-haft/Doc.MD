@@ -219,6 +219,13 @@ $\rightarrow$ Seprate Network from harfware and manage easier
 
 * Software controller or APIs
 
+### Type of SDN
+* Open SDN
+    - Relies on open-sources tech like openflow and openstack
+* Hybrid SDN
+    - Employs tradiotional and SDN protocols to operate itself
+* SDN Overlay
+    - A method of using software to create layers of network obstruction that can be used to run multiple separate virtualized network layers on top of the  physical network 
 ## 3 Portions of Typical Network Architechture
 
 **High Level** :
