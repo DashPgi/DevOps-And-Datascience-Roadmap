@@ -226,6 +226,13 @@ $\rightarrow$ Seprate Network from harfware and manage easier
     - Employs tradiotional and SDN protocols to operate itself
 * SDN Overlay
     - A method of using software to create layers of network obstruction that can be used to run multiple separate virtualized network layers on top of the  physical network 
+
+### Advantage of SDN
+1. Flexibility
+2. Scalability
+3. Cost-effectiveness
+4. Better-Security
+5.  Improved-Network-Performance 
 ## 3 Portions of Typical Network Architechture
 
 **High Level** :
