@@ -110,7 +110,7 @@ A cloud computing service where the customer has own dedicated infrastructure an
 ## Access Level Management
 
 Who-manage? | On-site | IaaS | PaaS | SaaS |
----|----|-----|-----|---
+\---|----|-----|-----|---
 Appliction |You-Manage |You-Manage|You-Manage|Sp-Manage
 Data | You-Manage | You-Manage| You-Manage | Sp-Manage
 Runtime | You-Manage | You-Manage | Sp-Manage | Sp-Manage
@@ -122,64 +122,124 @@ Storage | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 Networking | You-Manage | Sp-Manage | Sp-Manage |Sp-Manage
 
 # Scalling
+
 A Scalling is the process of increasing or decreasing the resources of a cloud system to meel the changing need of an organization
+
 ## Vertical Scalling
+
 **Just increasing and decreasing the resource** of a single server
-- Easy to manage
-- Efficient
-- Workload that requires high performance 
-- Cost-Effective
-## Horizontal Scalling 
-**adding or removing servers from a system** to increasing or decreasing resources 
-- More scalable
-- Can handle more traffic 
-- add more nodes as demand increases easy to balance betwen nodes and workloads
-- Expensive
-## Hybrid Scalling 
+
+* Easy to manage
+* Efficient
+* Workload that requires high performance
+* Cost-Effective
+
+## Horizontal Scalling
+
+**adding or removing servers from a system** to increasing or decreasing resources
+
+* More scalable
+* Can handle more traffic
+* add more nodes as demand increases easy to balance betwen nodes and workloads
+* Expensive
+
+## Hybrid Scalling
+
 Combination Vertical and Horizontal
-# Redundancy 
+
+# Redundancy
+
 Is the process of creating multiple copies of data or resources to ensure the availabily and reliablity of system (**Like Backup**)
+
 ### High Availablity
+
 Helps to ensure that systems continue to operate when failure occurs
 
 **Fault-Tolerance** > **High-Availablity** *like* **100** > **99.9%**
-### Improved Performance 
+
+### Improved Performance
+
 Provide backup system in case of a failure
+
 ### Increased Resiliency
+
 Ready for any attack and recovery in fastest time
+
 ### Imporved Security
----
+
+***
+
 ### Load-Balancing
+
 Distributes incoming traffic to multiple servers
+
 ### Failover
+
 transport to secendary system in emergency events
+
 ### Disaster-Recovery
+
 Recovery systems after any natural or cyber disaster and attack
 
 #### Type of DR :
- Feature | Cold-site | Warm-Site | Hot-Site
- ---|---|---|---|
- Secondary Location | + | + | + 
- Equipment at Location | - | + | +
- Connectivity at Location | - | + | +
- Active before failover | - | - | +
- Outage measured in | Weeks | Days-Hours | Hours-Minutes  
+
+Feature | Cold-site | Warm-Site | Hot-Site
+---|---|---|---|
+Secondary Location | + | + | +
+Equipment at Location | - | + | +
+Connectivity at Location | - | + | +
+Active before failover | - | - | +
+Outage measured in | Weeks | Days-Hours | Hours-Minutes
+
 ### Fault Tolerance
+
 Provides a backup in case of failures or errors,which helps to prevent data loss and minimize downtime
 
 ## Advantage
-- Minimize Downtime
-- Improved Performance
-- Increased resiliency
-- Improved Security
-- Enhanced user experience
+
+* Minimize Downtime
+* Improved Performance
+* Increased resiliency
+* Improved Security
+* Enhanced user experience
 
 # IaC
+
 Infrastructure as Code
 
+$\rightarrow$ Manage and control all infrastructure with code
+
 **SDN is a subset of this concept**
+
 ## SDN
+
 Software Definde Networking
 
 $\rightarrow$ Seprate Network from harfware and manage easier
-- Software controller or APIs
+
+* Software controller or APIs
+
+## 3 Portions of Typical Network Architechture
+
+**High Level** :
+
+### Management-Plane
+
+Used to administrator the routers and switches inside of the network
+
+* SSH
+* SNMP
+* CLI
+
+### Control-Plane
+
+* Static Router
+* GDP
+* OSPF
+* MPLS portocols
+  **Low Level** :
+
+### Data-Plane
+For control and config
+* Forwarding-table
+* Routing-table
