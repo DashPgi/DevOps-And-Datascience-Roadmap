@@ -174,7 +174,11 @@ Provides a backup in case of failures or errors,which helps to prevent data loss
 - Improved Security
 - Enhanced user experience
 
-# SDN
+# IaC
+Infrastructure as Code
+
+**SDN is a subset of this concept**
+## SDN
 Software Definde Networking
 
 $\rightarrow$ Seprate Network from harfware and manage easier
