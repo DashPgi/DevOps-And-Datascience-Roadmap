@@ -276,3 +276,12 @@ Uses the transport layer (TCP/UDP) to distribute traffic among servers
 Uses application layer (HTTP/HTTPS) to distribute 
 ### Cloud-based
 ### DNS-based
+
+# Type of storage in cloud 
+## Object storage
+- Scalability
+- Save data that likes object
+- Less expensive
+- May have not strong data protection all the time
+## Block storage
+## File storage
