@@ -280,8 +280,13 @@ Uses application layer (HTTP/HTTPS) to distribute
 # Type of storage in cloud 
 ## Object storage
 - Scalability
-- Save data that likes object
+- Save data, likes object
 - Less expensive
 - May have not strong data protection all the time
 ## Block storage
+
 ## File storage
+- Save data,like file
+- includes buitl-in collabration features
+- More expensive
+- Less scalable
