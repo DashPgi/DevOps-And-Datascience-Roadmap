@@ -314,3 +314,15 @@ Type pf storage hardware :
 - Solid-state drivers
 - Virtual-disks
 - Cloud-disks
+
+## CDN
+### Content Delivery Network
+#### System of distributed servers used to deliver web content to users based on their geographic location
+- **Advantage**
+    - Provides faster and more
+    - Improves the performance and speed of a website or application
+    - Improvess the security too
+- **Disadvantage**
+    - Expensive
+    - Slower load time (if the nearest server is not located)
+    - it adds complexity to a website or application
