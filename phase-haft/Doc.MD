@@ -284,7 +284,11 @@ Uses application layer (HTTP/HTTPS) to distribute
 - Less expensive
 - May have not strong data protection all the time
 ## Block storage
-
+- Save data,like block
+- High level data security 
+- includes buitl-in collabration features
+- More expensive
+- Less scalable
 ## File storage
 - Save data,like file
 - includes buitl-in collabration features
