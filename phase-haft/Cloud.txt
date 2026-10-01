@@ -12,7 +12,7 @@
 - [x] FireWall 
 - [x] DNS
 - [x] VPS
-- [ ] Virtual Machine
+- [x] Virtual Machine
 - [x] Storage
 - [ ] IAM
 - [ ] VPC
