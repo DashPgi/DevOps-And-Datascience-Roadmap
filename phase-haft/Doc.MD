@@ -277,7 +277,7 @@ Uses application layer (HTTP/HTTPS) to distribute
 ### Cloud-based
 ### DNS-based
 
-# Type of storage in cloud 
+# Storage in cloud 
 ## Object storage
 ### Save data , likes object
 - **Advantage**
@@ -304,3 +304,13 @@ Uses application layer (HTTP/HTTPS) to distribute
 - **Disadvantage**
     - More expensive
     - Less scalable
+## Software define storage
+#### Seprate the managment of storage sources
+- Uses a policy-based
+- Just adminstrator can define configoration
+
+Type pf storage hardware :
+- Flash Drivers
+- Solid-state drivers
+- Virtual-disks
+- Cloud-disks
