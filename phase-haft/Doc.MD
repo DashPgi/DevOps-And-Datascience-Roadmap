@@ -279,14 +279,18 @@ Uses application layer (HTTP/HTTPS) to distribute
 
 # Type of storage in cloud 
 ## Object storage
-- Scalability
 - Save data, likes object
-- Less expensive
-- May have not strong data protection all the time
+- Advantage
+    - Scalability
+    - Large-scale
+    - high-scalability
+    - Less expensive
+- Disadvantage 
+    - May have not strong data protection all the time
+    - Unstructured data
 ## Block storage
 - Save data,like block
-- High level data security 
-- includes buitl-in collabration features
+- Advantagevan
 - More expensive
 - Less scalable
 ## File storage
