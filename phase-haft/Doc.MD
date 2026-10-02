@@ -394,3 +394,13 @@ Identity and Access Management
 
 is a system used to manage identities and control access to cloud resources
 
+## Main IAM components
+
+| Component      | Meaning                                           |
+| -------------- | ------------------------------------------------- |
+| **User**       | An identity representing a person/application     |
+| **Group**      | A collection of users                             |
+| **Role**       | An identity that can be assumed by users/services |
+| **Policy**     | Defines permissions                               |
+| **Permission** | Specifies what actions are allowed or denied      |
+| **MFA**        | Adds an additional authentication factor          |
