@@ -355,3 +355,21 @@ Replace and rearchietect,redsign app to fully leverage cloud-natvie feature
 Drop and shop 
 
 Replace existing app with cloud-based solution (SaaS)
+
+
+# VPC
+Virtual Private Cloud
+
+is an isolated and configurable virtual network inside a cloud provider's infrastructure
+
+*It allows you to control how your cloud resources communicate with each other and with the Internet*
+
+With a VPC, you can define:
+
+- IP address ranges
+- Subnets
+- Routing
+- Internet access
+- Security rules
+- Public and private resources
+
