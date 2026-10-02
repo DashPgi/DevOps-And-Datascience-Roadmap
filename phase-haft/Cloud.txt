@@ -16,7 +16,7 @@
 - [x] Storage
 - [x] CDN
 - [x] Cloud-Migration
-- [x] Cloud-Operation
+- [] Cloud-Operation
 - [x] IAM
 - [x] VPC
 - [ ] Security Group
