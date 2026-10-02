@@ -326,3 +326,10 @@ Type pf storage hardware :
     - Expensive
     - Slower load time (if the nearest server is not located)
     - it adds complexity to a website or application
+# Cloud-Migration
+Is the process of moving data,app and other business processes from an on-premise enviroment to a cloud-based infrastructure
+### 3 Main Phases of CM
+1. Planning 
+2. implementation 
+3. Optimization and Security 
+    - Improve performance , security and monitoring
