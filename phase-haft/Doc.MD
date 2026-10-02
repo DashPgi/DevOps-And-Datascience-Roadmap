@@ -348,5 +348,10 @@ Make small optimization while moving to cloud
 ### 3. Retaining 
 Keep some apps on permises
 ### 4. Retiring
+Don't use apps no longer use
 ### 5. Refactoring 
+Replace and rearchietect,redsign app to fully leverage cloud-natvie feature
 ### 6. Repurching   
+Drop and shop 
+
+Replace existing app with cloud-based solution (SaaS)
