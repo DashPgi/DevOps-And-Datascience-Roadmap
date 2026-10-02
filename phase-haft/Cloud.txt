@@ -15,6 +15,7 @@
 - [x] Virtual Machine
 - [x] Storage
 - [x] CDN
+- [x] Cloud-Migration
 - [ ] IAM
 - [ ] VPC
 - [ ] Security Group
