@@ -335,3 +335,18 @@ Is the process of moving data,app and other business processes from an on-premis
     - Move app or data and test functionaly 
 3. Optimization and Security 
     - Improve performance , security and monitoring
+
+## Strategies
+### 1. Rehosting
+Lift and shift
+
+Move apps to cloud with minimal or no changes
+### 2. Replatforming
+Change DB service 
+
+Make small optimization while moving to cloud 
+### 3. Retaining 
+Keep some apps on permises
+### 4. Retiring
+### 5. Refactoring 
+### 6. Repurching   
