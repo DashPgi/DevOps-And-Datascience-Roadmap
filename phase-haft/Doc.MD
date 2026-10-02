@@ -373,3 +373,18 @@ With a VPC, you can define:
 - Security rules
 - Public and private resources
 
+## Main uses
+- Network isolation 
+    - separate your cloud resources from other environments
+- Network segmentation
+    - divide your network into different subnets
+- Internet connectivity 
+    - control which resources can access the Internet
+- Traffic control 
+    - control which resources can communicate with each other
+- Security 
+    - restrict access using Security Groups and Network ACLs
+- Private communication 
+    - connect applications, databases, servers, and other cloud services privately
+- Hybrid networking 
+    - connect your cloud network to an on-premises network using VPN or dedicated connections
