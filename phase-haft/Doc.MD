@@ -388,3 +388,9 @@ With a VPC, you can define:
     - connect applications, databases, servers, and other cloud services privately
 - Hybrid networking 
     - connect your cloud network to an on-premises network using VPN or dedicated connections
+
+# IAM
+Identity and Access Management
+
+is a system used to manage identities and control access to cloud resources
+
