@@ -330,6 +330,8 @@ Type pf storage hardware :
 Is the process of moving data,app and other business processes from an on-premise enviroment to a cloud-based infrastructure
 ### 3 Main Phases of CM
 1. Planning 
+    - create a roadmap for CM and asesst systems
 2. implementation 
+    - Move app or data and test functionaly 
 3. Optimization and Security 
     - Improve performance , security and monitoring
