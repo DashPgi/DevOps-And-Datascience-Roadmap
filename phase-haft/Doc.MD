@@ -481,3 +481,7 @@ Virtual servers are treated as a temporary and disposiable resource
 ## Recommenditions
 ## Operations Management 
 ## Cost Transparency and Optimization
+## Scheduled Policies 
+## Dashboard Reports and Analytics
+## Auditing and Budgets
+## Security and Compliance-Governance
