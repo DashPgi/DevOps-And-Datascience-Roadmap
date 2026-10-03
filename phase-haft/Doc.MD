@@ -476,12 +476,14 @@ Virtual servers are treated as a temporary and disposiable resource
 
 
 # Cloud Governance
+Is a critical concept that businesses need to understand to ensure the security ,compliance and effeciency of their cloud deployment
 
 ## Monitoring
+
 ## Recommenditions
 ## Operations Management 
 ## Cost Transparency and Optimization
 ## Scheduled Policies 
 ## Dashboard Reports and Analytics
 ## Auditing and Budgets
-## Security and Compliance-Governance
+## Security and Compliance-Governance 
