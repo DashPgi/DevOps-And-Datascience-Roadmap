@@ -461,3 +461,5 @@ Virtual servers are treated as a temporary and disposiable resource
         - User authanticates  only once
     - Idenity federation(ID)
         - Allow users to log in once and have an access
+- Authorization :
+    - Its allows administrators to define permissions to access data files
