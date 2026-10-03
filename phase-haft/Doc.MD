@@ -468,3 +468,8 @@ Virtual servers are treated as a temporary and disposiable resource
 ### Shared Responsibility Model
 - Devide Responsibility between the cloud service provider
 - Organizations
+### Penetration Testing
+### Vulnerability 
+- Scanning software 
+- Check application and service for security
+### Encryption
