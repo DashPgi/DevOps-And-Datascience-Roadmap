@@ -465,3 +465,6 @@ Virtual servers are treated as a temporary and disposiable resource
     - It allows administrators to define permissions to access data files
 - Auditing :
     - It keeps a record of what happened on a system and allow
+### Shared Responsibility Model
+- Devide Responsibility between the cloud service provider
+- Organizations
