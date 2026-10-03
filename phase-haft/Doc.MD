@@ -444,3 +444,5 @@ Virtual servers are treated as a temporary and disposiable resource
 - Load-Balancing
 - Right-Sizing
 - Auto-Scaling
+## MSP
+### Manage Serever Providers
