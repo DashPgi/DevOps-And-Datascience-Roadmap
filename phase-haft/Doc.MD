@@ -404,3 +404,6 @@ is a system used to manage identities and control access to cloud resources
 | **Policy**     | Defines permissions                               |
 | **Permission** | Specifies what actions are allowed or denied      |
 | **MFA**        | Adds an additional authentication factor          |
+
+
+# Cloud-Operation
