@@ -446,3 +446,18 @@ Virtual servers are treated as a temporary and disposiable resource
 - Auto-Scaling
 ## MSP
 ### Manage Serever Providers
+
+# Security
+- Use VPN
+- Use DNS
+- Use Firewall
+- Organization Network connections
+## Application and infrastructure security
+### 3 A's of Security :
+- Authanticator :
+    - Multifactor Authanticator (MFA)
+        - Combines two or more of these auth methods 
+    - Single sing-on (SSO)
+        - User authanticates  only once
+    - Idenity federation(ID)
+        - Allow users to log in once and have an access
