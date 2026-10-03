@@ -424,3 +424,11 @@ Is a key aspect of disaster recovery
 ### 3. Data Gravity
 *Save data in a spesefic location*
 
+### 4. Locality
+**Location of data** , if we having a large amounts of data,it efficient to use CPU resource pool closer to the data
+
+### 5. Data Compression
+**Removing unnecessary data** for improve performance and dicrease costs
+
+### 6. Deduplication
+Eleminate duplicated data 
