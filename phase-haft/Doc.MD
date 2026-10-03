@@ -473,3 +473,11 @@ Virtual servers are treated as a temporary and disposiable resource
 - Scanning software 
 - Check application and service for security
 ### Encryption
+
+
+# Cloud Governance
+
+## Monitoring
+## Recommenditions
+## Operations Management 
+## Cost Transparency and Optimization
