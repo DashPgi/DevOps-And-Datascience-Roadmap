@@ -432,3 +432,15 @@ Is a key aspect of disaster recovery
 
 ### 6. Deduplication
 Eleminate duplicated data 
+
+### 7. Capacity on Demand
+Ability to quickly and easily scale storage capacity as needed
+
+## Availability 
+## Monitoring and Visiability 
+## Disposable Resources
+Virtual servers are treated as a temporary and disposiable resource
+## Optimization
+- Load-Balancing
+- Right-Sizing
+- Auto-Scaling
