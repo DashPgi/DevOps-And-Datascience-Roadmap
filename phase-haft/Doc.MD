@@ -407,3 +407,20 @@ is a system used to manage identities and control access to cloud resources
 
 
 # Cloud-Operation
+
+## Data Management
+For ensure critical aspect of cloud computing with integrity,security and availablity of data
+
+### 1. Data Replication
+Is a key aspect of disaster recovery
+- **Reproduction** : Process to creating multiple copies of data across different location or server 
+- **Increase availabiliy**
+
+### 2. Backup and Recovery
+- Snapshot
+- Increment backup
+- Full backup
+
+### 3. Data Gravity
+*Save data in a spesefic location*
+
