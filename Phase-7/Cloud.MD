@@ -1,4 +1,4 @@
-# Phase 7: Cloud
+# Cloud
 - [x] Cloud-Computing
 - [x] Could-Principles
 - [x] Cloud-Deployment-Models
