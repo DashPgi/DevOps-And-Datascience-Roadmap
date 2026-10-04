@@ -1,6 +1,9 @@
 # SDLC 
 Software \ System Development Life Cycle
 
+### 1. Requirment Analysis
+### 3. Implementation
+### 4. 
 ## Evol
 
 # Iteration Cycle
