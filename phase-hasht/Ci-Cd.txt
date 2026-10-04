@@ -1,6 +1,7 @@
 # CI/CD
 
 - [x] Concept
+- [x] CI
 - [ ] Pipeline Concept
 - [ ] GitHub Actions
 - [ ] YAML
