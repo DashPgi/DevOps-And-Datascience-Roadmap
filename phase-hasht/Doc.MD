@@ -50,8 +50,9 @@ Is a development practice that requires  developers to integrat code into a shar
 #### 7. Build resault should be always be communicated to all developers
 
 # Pipeline 
+
 ### Build Pipeline Parts :
-#### Integration
+#### Integration or Merging
 #### Compiletion
 #### Automates units tests
 #### Automated ui tests
