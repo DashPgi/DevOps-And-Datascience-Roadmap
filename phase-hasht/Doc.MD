@@ -46,3 +46,5 @@ Is a development practice that requires  developers to integrat code into a shar
 #### 3. Build should be trigged every time a developer check in code 
 #### 4. Build should be automated and fast 
 #### 5. Build should be compile as well as run automated 
+#### 6. Fixing a faild build should be top priority for the developers
+#### 7. Build resault should be always be communicated to all developers
