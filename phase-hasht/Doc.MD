@@ -42,5 +42,6 @@ $If$ In Testing we not having bug $\rightarrow$ **Return to Public**
 Is a development practice that requires  developers to integrat code into a shared repository several time a day
 
 #### 1. A single centeral repository where the code lives
-#### 2. Developers check in/commit their code frequently 
-#### 3. 
+#### 2. Developers check in/commit their code frequently (*minimum every day*)
+#### 3. Build should be trigged every time a developer check in code 
+#### 4. build should be automated and fast 
