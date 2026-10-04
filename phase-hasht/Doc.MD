@@ -48,3 +48,10 @@ Is a development practice that requires  developers to integrat code into a shar
 #### 5. Build should be compile as well as run automated 
 #### 6. Fixing a faild build should be top priority for the developers
 #### 7. Build resault should be always be communicated to all developers
+
+# Pipeline 
+### Build Pipeline Parts :
+#### Integration
+#### Compiletion
+#### Automates units tests
+#### Automated ui tests
