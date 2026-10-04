@@ -36,3 +36,9 @@ $If$ In Testing we not having bug $\rightarrow$ **Return to Public**
 3. Intermediate merge  issues can hold up teams
 4. Long feedback cycle for funcctional defects 
 5. Long iterations  
+
+# CI
+### Continuous Integration
+Is a development practice that requires  developers to integrat code into a shared repository several time a day
+
+#### 1. A single centeral repository where the code lives
