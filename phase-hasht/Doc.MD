@@ -44,4 +44,5 @@ Is a development practice that requires  developers to integrat code into a shar
 #### 1. A single centeral repository where the code lives
 #### 2. Developers check in/commit their code frequently (*minimum every day*)
 #### 3. Build should be trigged every time a developer check in code 
-#### 4. build should be automated and fast 
+#### 4. Build should be automated and fast 
+#### 5. Build should be compile as well as run automated 
