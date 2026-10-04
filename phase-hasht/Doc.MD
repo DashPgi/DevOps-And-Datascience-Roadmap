@@ -2,9 +2,10 @@
 Software \ System Development Life Cycle
 
 ### 1. Requirment Analysis
+### 2. Design
 ### 3. Implementation
-### 4. 
-## Evol
+### 4. Testing 
+### 6. Evolution 
 
 # Iteration Cycle
 ### 2 week to  2 month
