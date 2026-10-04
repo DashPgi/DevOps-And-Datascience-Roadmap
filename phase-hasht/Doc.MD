@@ -25,3 +25,8 @@ $If$ In Testing we not having bug $\rightarrow$ **Return to Public**
 1. Customer Profile
 2. Product Catalog
 3. Order Tracking
+
+# Pain Point 
+1. Integration is painful and effort consuming
+2. Fixing issues at the end of iterations
+3. Intermediate merge  issues can hold up teams
