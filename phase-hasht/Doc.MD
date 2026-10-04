@@ -51,6 +51,11 @@ Is a development practice that requires  developers to integrat code into a shar
 
 # Pipeline 
 
+In process of integration when a code is in progress,The preceding stages are waiting for that code until process is done
+
+*But In Pipeline* :
+**No process or developers remains idle; they can utilize this process to achieve results more quickly and ahead of schedule**  
+
 ### Build Pipeline Parts :
 #### Integration or Merging
 #### Compiletion
