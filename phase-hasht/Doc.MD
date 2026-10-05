@@ -68,3 +68,5 @@ In process of integration when a code is in progress,The preceding stages are wa
 # Pain Point
 1. Correctness of instructions 
 2. Different in instruction  across enviroments
+3. Error prone nature of manual tasks
+4. Deployments are sophisticated , high-impact with downtime
