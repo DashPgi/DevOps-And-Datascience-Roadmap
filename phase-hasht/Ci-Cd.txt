@@ -1,6 +1,7 @@
 # CI/CD
 
 - [x] Concept
+- [x] PainPoint (CI)
 - [x] CI
 - [ ] Pipeline Concept
 - [ ] GitHub Actions
