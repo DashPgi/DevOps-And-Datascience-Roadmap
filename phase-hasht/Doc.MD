@@ -77,3 +77,6 @@ In process of integration when a code is in progress,The preceding stages are wa
 # CD    
 ### Continuous Delivary
 Is a software development practice where software can be realesed to prduction at any time
+
+In this way **Operation team have new roadmap to operate code** :
+Operation Team $\rightarrow$ Automted script $\rightarrow$ Prepare Enviroment $\rightarrow$ Deployment in test enviroment $\rightarrow$ Testing $\rightarrow$ Deployment in Public 
