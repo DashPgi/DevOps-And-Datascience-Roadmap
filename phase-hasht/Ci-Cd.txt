@@ -4,6 +4,7 @@
 - [x] PainPoint (CI)
 - [x] CI
 - [x] Pipeline Concept
+- [x] PainPoint (CD)
 - [ ] GitHub Actions
 - [ ] YAML
 - [ ] Secrets
