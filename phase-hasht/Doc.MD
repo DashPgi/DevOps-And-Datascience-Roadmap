@@ -75,13 +75,16 @@ In process of integration when a code is in progress,The preceding stages are wa
 4. Deployments are sophisticated , high-impact with downtime
 
 # CD    
-### Continuous Delivary
+## 1. Continuous Delivary
 Is a software development practice where software can be realesed to prduction at any time
 
 #### 1. Correctness of automated scripts can be  verified at creation time 
 #### 2. Automated script can easily pick the tasks for each enviroment  
 #### 3. Automated prevents the occurrence of human errors
 #### 4. Automated deployments, easily repeatable,lesser time-to-market
+
+## 2. Continuous Deployment
+Is a sofware development practice where software is automatically released to production continuously
 
 
 In this way **Operation team have new roadmap to operate code** :
