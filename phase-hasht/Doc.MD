@@ -49,6 +49,9 @@ Is a development practice that requires  developers to integrate code into a sha
 #### 6. Fixing a faild build should be top priority for the developers
 #### 7. Build resault should be always be communicated to all developers
 
+In this way **Development team have new roadmap to integrate code** :
+Development Team $\rightarrow$ Git or Integrate code $\rightarrow$ Compiletion $\rightarrow$ Automates unit test $\rightarrow$ Automated ui tests
+
 In this way **Operation team have new roadmap to operate code** :
 Operation Team $\rightarrow$ Read Instructions $\rightarrow$ Prepare Enviroment $\rightarrow$ Deployment
 
@@ -62,7 +65,7 @@ In process of integration when a code is in progress,The preceding stages are wa
 ### Build Pipeline Parts :
 #### Integration or Merging
 #### Compiletion
-#### Automates units tests
+#### Automates unit tests
 #### Automated ui tests
 
 # Pain Point
