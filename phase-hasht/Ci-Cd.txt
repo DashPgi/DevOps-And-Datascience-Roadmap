@@ -3,7 +3,7 @@
 - [x] Concept
 - [x] PainPoint (CI)
 - [x] CI
-- [ ] Pipeline Concept
+- [x] Pipeline Concept
 - [ ] GitHub Actions
 - [ ] YAML
 - [ ] Secrets
