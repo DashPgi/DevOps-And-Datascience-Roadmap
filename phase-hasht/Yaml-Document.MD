@@ -26,3 +26,29 @@ A type of languages that uses for **Data Transfer** :
 - Yaml
 - Json
 - CSV
+
+
+#### Different between Yaml , Xml, Json :
+
+Xml :
+```
+<Server>
+    <Server>
+        <name>Server1</name>
+    </Server>
+</Server>
+```
+Json : 
+```
+{
+    Server:{
+        name:server1
+    }
+}
+```
+
+Yaml : 
+```
+Servers : 
+    - name : server1
+```
