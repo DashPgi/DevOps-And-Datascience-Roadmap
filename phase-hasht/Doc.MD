@@ -89,3 +89,13 @@ Is a sofware development practice where software is automatically released to pr
 
 In this way **Operation team have new roadmap to operate code** :
 Operation Team $\rightarrow$ Automted script $\rightarrow$ Prepare Enviroment $\rightarrow$ Deployment in test enviroment $\rightarrow$ Testing $\rightarrow$ Deployment in Public 
+
+# DevOps
+
+
+$$ Dev \rightarrow Development $$
+$$And$$
+$$Ops \rightarrow Operation$$
+**DevOps does not mean a combination of development** and operations skillset
+
+Is is a new culture,and a new way of thinking ,**simply hiring people with dual skill sets will not help achieve it!!**
