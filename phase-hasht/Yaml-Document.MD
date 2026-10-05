@@ -1,4 +1,5 @@
 # Yaml
+**A Serialization language**
 
 ## All Type of Language programming 
 
@@ -52,3 +53,16 @@ Yaml :
 Servers : 
     - name : server1
 ```
+
+
+# Yaml Use cases :
+
+### Configuration management 
+### infrastructure as code
+### CD\CI
+### APIs
+### Data Serialization 
+### Container orchestration 
+
+
+# Syntax
