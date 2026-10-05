@@ -6,6 +6,7 @@
 - [x] Pipeline Concept
 - [x] PainPoint (CD)
 - [x] CD
+- [x] DevOps Concept
 - [ ] GitHub Actions
 - [ ] YAML
 - [ ] Secrets
