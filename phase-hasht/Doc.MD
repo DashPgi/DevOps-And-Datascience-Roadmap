@@ -66,3 +66,5 @@ In process of integration when a code is in progress,The preceding stages are wa
 #### Automated ui tests
 
 # Pain Point
+1. Correctness of instructions 
+2. Different in instruction  across enviroments
