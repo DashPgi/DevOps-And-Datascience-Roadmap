@@ -173,3 +173,27 @@ API_KEY=abc123
 #### 5. Rotate Secrets regularly
 #### 6. Follow the principle of Least Privilege
 *For example, if a deployment pipeline only needs permission to deploy an application, its credentials should not have unrestricted access to the entire cloud account.*
+
+
+
+# Automated Tests
+
+Automated Tests are tests that run automatically without manual intervention to verify that the application works correctly and that new changes have not introduced bugs or broken existing functionality
+
+A typical pipeline looks like :
+
+    Developer
+    ↓
+    Push / Pull Request
+    ↓
+    CI Pipeline
+    ↓
+    Build
+    ↓
+    Automated Tests
+    ↓
+    Success ─────────→ Deploy
+    │
+    └─ Failure ───→ Stop Pipeline
+
+    
