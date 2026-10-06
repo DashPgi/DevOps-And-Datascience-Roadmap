@@ -66,3 +66,7 @@ Servers :
 
 
 # Syntax
+
+```
+Key : Value
+```
