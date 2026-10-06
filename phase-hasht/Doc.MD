@@ -196,4 +196,27 @@ A typical pipeline looks like :
     │
     └─ Failure ───→ Stop Pipeline
 
-    
+## Types of Automated Tests
+#### 1. Unit Tests
+Test small parts of the application, such as functions, methods, or classes :
+
+    Function → Test → Pass / Fail
+#### 2. Integration Tests
+Test whether multiple components work correctly together :
+
+    Application
+        ↓
+    API
+        ↓
+    Database
+
+#### End-to-End Tests 
+Test the entire application from a user's perspective :
+
+    Open Website
+        ↓
+    Login
+        ↓
+    Perform Action
+        ↓
+    Verify Result
