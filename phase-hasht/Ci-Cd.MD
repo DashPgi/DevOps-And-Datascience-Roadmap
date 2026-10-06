@@ -10,5 +10,5 @@
 - [x] GitHub Actions
 - [x] YAML
 - [x] Secrets
-- [ ] Automated Tests
+- [x] Automated Tests
 
