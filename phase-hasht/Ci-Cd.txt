@@ -7,7 +7,7 @@
 - [x] PainPoint (CD)
 - [x] CD
 - [x] DevOps Concept
-- [ ] GitHub Actions
+- [x] GitHub Actions
 - [x] YAML
 - [ ] Secrets
 - [ ] Automated Tests
