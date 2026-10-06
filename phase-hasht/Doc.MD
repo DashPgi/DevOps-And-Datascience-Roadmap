@@ -99,3 +99,16 @@ $$Ops \rightarrow Operation$$
 **DevOps does not mean a combination of development** and operations skillset
 
 Is is a new culture,and a new way of thinking ,**simply hiring people with dual skill sets will not help achieve it!!**
+
+# Github Action 
+
+An Action is a reusable unit of code in GitHub Actions that performs a specific task.
+
+Actions are commonly used for tasks such as:
+- Checking out repository code
+- Setting up a programming environment
+- Building a project
+- Running tests
+- Authenticating with a service
+- Deploying an application
+- Publishing packages or Docker images
