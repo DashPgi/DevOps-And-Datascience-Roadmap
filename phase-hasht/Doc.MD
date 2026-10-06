@@ -112,3 +112,16 @@ Actions are commonly used for tasks such as:
 - Authenticating with a service
 - Deploying an application
 - Publishing packages or Docker images
+
+#  Secrets
+is sensitive information that a pipeline needs to perform an operation but should not be stored directly in source code, repositories, or configuration files
+
+### ForExample :
+- API Keys
+- Passwords
+- Access Tokens
+- SSH Private Keys
+- Cloud Credentials
+- Database Passwords
+- Docker Registry Credentials
+- Signing Keys
