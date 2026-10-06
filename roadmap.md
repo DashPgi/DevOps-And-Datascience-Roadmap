@@ -1,6 +1,5 @@
 # 🗺️ DevOps + Data Science Roadmap
 
----
 
 # 🐧 Phase 1: Linux & Networking
 
@@ -191,27 +190,54 @@
 - [x] JSON
 - [x] curl
 - [x] venv (API context)
+- [x] Advanced Python
 
 ---
 
 # ☁️ Phase 7: Cloud
 
-- [ ] IaaS/PaaS/SaaS
-- [ ] Virtual Machine
-- [ ] Storage
-- [ ] IAM
-- [ ] VPC
-- [ ] Security Group
+- [x] Cloud Computing
+- [x] Cloud Principles
+- [x] Cloud Deployment Models
+- [x] IaaS/PaaS/SaaS
+- [x] Scaling
+- [x] Redundancy
+- [x] High Availability
+- [x] Disaster Recovery
+- [x] SDN
+- [x] IaC
+- [x] Firewall
+- [x] DNS
+- [x] VPS
+- [x] Virtual Machine
+- [x] Storage
+- [x] CDN
+- [x] Cloud Migration
+- [x] Cloud Operation
+- [x] IAM
+- [x] VPC
+- [x] Security Group
+- [x] Cloud Governance
 
 ---
 
 # ⚙️ Phase 8: CI/CD
 
-- [ ] Pipeline Concept
-- [ ] GitHub Actions
-- [ ] YAML
-- [ ] Secrets
-- [ ] Automated Tests
+- [x] Concept
+- [x] Pain Points (CI)
+- [x] CI
+- [x] Pipeline Concept
+- [x] Pain Points (CD)
+- [x] CD
+- [x] DevOps Concept
+- [x] GitHub Actions
+- [x] YAML
+- [x] Secrets
+- [x] Automated Tests
+
+---
+
+# 🎉 Core Roadmap: 8/8 Phases Complete!
 
 ---
 
