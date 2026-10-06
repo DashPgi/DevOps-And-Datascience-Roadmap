@@ -164,4 +164,12 @@ API_KEY=abc123
     Production
         └── PROD_API_KEY
 
-        
+
+## Security Best Practices
+#### 1. Never hard-code Secrets
+#### 2. Never commit Secrets to Git
+#### 3. Never print Secrets in logs
+#### 4. Use separate Secrets for different environments
+#### 5. Rotate Secrets regularly
+#### 6. Follow the principle of Least Privilege
+*For example, if a deployment pipeline only needs permission to deploy an application, its credentials should not have unrestricted access to the entire cloud account.*
