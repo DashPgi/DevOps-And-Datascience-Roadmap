@@ -125,3 +125,30 @@ is sensitive information that a pipeline needs to perform an operation but shoul
 - Database Passwords
 - Docker Registry Credentials
 - Signing Keys
+
+| Variable | Secret |
+|---|---|
+| Non-sensitive configuration | Sensitive information |
+| Usually safe to display | Must be protected |
+| `PORT=8080` | `DB_PASSWORD=xxxxx` |
+| `NODE_ENV=production` | `API_KEY=xxxxx` |
+
+## Tips
+#### Secrets should NOT be committed to Git :
+```
+env:
+  API_KEY: "sk-123456789"
+
+# we must use .gitignore
+.env
+credentials.json
+secrets.json
+```
+#### Secret Masking
+```
+# In system : 
+API_KEY=abc123
+
+# In Log :
+*** or abcd
+```
