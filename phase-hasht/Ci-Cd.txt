@@ -8,7 +8,7 @@
 - [x] CD
 - [x] DevOps Concept
 - [ ] GitHub Actions
-- [ ] YAML
+- [x] YAML
 - [ ] Secrets
 - [ ] Automated Tests
 
