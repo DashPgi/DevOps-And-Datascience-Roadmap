@@ -210,7 +210,7 @@ Test whether multiple components work correctly together :
         ↓
     Database
 
-#### End-to-End Tests 
+#### 3. End-to-End Tests 
 Test the entire application from a user's perspective :
 
     Open Website
@@ -220,3 +220,10 @@ Test the entire application from a user's perspective :
     Perform Action
         ↓
     Verify Result
+
+#### 4. Regression Tests
+
+Verify that new changes have not broken previously working functionality
+
+#### 5. Smoke Tests
+Perform a small set of basic tests to verify that the application is fundamentally working
