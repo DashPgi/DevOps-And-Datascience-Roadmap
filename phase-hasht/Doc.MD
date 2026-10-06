@@ -152,3 +152,16 @@ API_KEY=abc123
 # In Log :
 *** or abcd
 ```
+
+## Enviroment Specific Secrets
+
+    Development
+        └── DEV_API_KEY
+
+    Staging
+        └── STAGING_API_KEY
+
+    Production
+        └── PROD_API_KEY
+
+        
