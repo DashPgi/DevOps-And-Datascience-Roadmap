@@ -9,6 +9,6 @@
 - [x] DevOps Concept
 - [x] GitHub Actions
 - [x] YAML
-- [ ] Secrets
+- [x] Secrets
 - [ ] Automated Tests
 
