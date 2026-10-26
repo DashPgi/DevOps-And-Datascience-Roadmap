@@ -1,262 +1,73 @@
-# 🗺️ DevOps + Data Science Roadmap
+# 🤖 Machine Learning Road Map
 
-
-# 🐧 Phase 1: Linux & Networking
-
-## Linux Basics
-
-- [x] ls
-- [x] cd
-- [x] cp
-- [x] mv
-- [x] rm
-- [x] mkdir
-- [x] man
-- [x] rmdir
-- [x] nano
-- [x] cat
-- [x] echo
-- [x] alias
-- [x] ln
-- [x] tar
-- [x] find
-- [x] grep
-
-## Bash
-
-- [x] stdin
-- [x] stdout
-- [x] stderr
-- [x] BashIO
-- [x] BashScript
-
-## Users & Permissions
-
-- [x] chmod
-- [x] chown
-- [x] chgrp
-- [x] sudo
-- [x] su
-- [x] useradd
-- [x] chtv
-- [x] SUID
-- [x] SGID
-- [x] umask
-- [x] groupadd
-- [x] loginctl
-
-## Processes
-
-- [x] partition
-- [x] filesystem
-- [x] mount
-- [x] jobs
-- [x] ps
-- [x] top
-- [x] htop
-- [x] kill
-- [x] systemctl
-
-## SSH
-
-- [x] ssh
-- [x] ssh-keygen
-- [x] scp
-- [x] sftp
-- [x] ssh-agent
-
-## Networking
-
-- [x] Network+
-- [x] IP
-- [x] Subnet
-- [x] DNS
-- [x] HTTP/HTTPS
-
-## Firewall
-
-- [x] ufw
-- [x] iptables
+**A step-by-step roadmap for learning all core ML concepts.**
 
 ---
 
-# 🐍 Phase 2: Python
+## Step 1: Foundations
 
-- [x] Variables
-- [x] Conditions
-- [x] Loops
-- [x] DataTypes
-- [x] Modules
-- [x] Functions
+- [x] Python
 - [x] OOP
-- [x] Exception Handling
-- [x] venv
-- [x] pip
-- [x] requests
+- [x] NumPy
+- [x] Pandas
+- [x] Matplotlib / Seaborn
+- [x] Jupyter Notebook
 
----
+## Step 2: Data Preprocessing
 
-# 🔀 Phase 3: Git
+- [x] Data Cleaning
+- [x] Handling Missing Data
+- [x] Feature Engineering
+- [x] Feature Scaling
+- [x] Encoding
+- [x] Data Partitioning (Train/Test Split)
 
-- [x] git init
-- [x] git add
-- [x] git commit
-- [x] git push
-- [x] git pull
-- [x] Branch
-- [x] git config
-- [x] diff & patch
-- [x] Track
-- [x] Stage
-- [x] Revert
-- [x] Merge
-- [x] Conflict
-- [x] Rebase
-- [x] Pull Request
-- [x] .gitignore
-- [x] remote
+## Step 3: Supervised Learning
 
----
+- [x] Linear Regression
+- [x] Logistic Regression
+- [x] KNN
+- [x] Decision Tree
+- [x] Random Forest
+- [x] SVM
+- [x] Naive Bayes
+- [x] XGBoost
+- [x] Hyperparameter Tuning
+- [x] scikit-learn
 
-# 🗄️ Phase 4: SQL
+## Step 4: Unsupervised Learning
 
-- [x] RDBMS
-- [x] T-SQL
-- [x] SELECT
-- [x] Indexing
-- [x] WHERE
-- [x] ORDER BY
-- [x] GROUP BY
-- [x] Set Operator
-- [x] LIMIT
-- [x] JOIN
-- [x] Manipulating Data
-- [x] HAVING
-- [x] EXISTS
-- [x] Sub-Query
-- [x] IN
-- [x] Derived Table
-- [x] CTE
-- [x] View
-- [x] Querying
-- [x] Programming (T-SQL)
-- [x] Window Function
-- [x] Framing
-- [x] Pivot & Unpivot
-- [x] Temporal Table
-- [x] Transaction
-- [x] Normal Forms (1NF, 2NF, 3NF)
-- [x] Referential Actions (NO ACTION / CASCADE / SET NULL / SET DEFAULT)
+- [ ] Clustering (K-Means)
+- [ ] Hierarchical Clustering
+- [ ] DBSCAN
+- [ ] Dimensionality Reduction (PCA)
+- [ ] Association Rules
+- [ ] Anomaly Detection
 
----
+## Step 5: Model Evaluation
 
-# 🐳 Phase 5: Docker
+- [ ] Accuracy
+- [ ] Precision
+- [ ] Recall
+- [ ] F1-Score
+- [ ] ROC-AUC
+- [ ] Confusion Matrix
+- [ ] Cross-Validation
+- [ ] Learning Curves
+- [ ] Neural Networks (intro)
 
-- [x] Concept
-- [x] Image vs Container
-- [x] Dockerfile
-- [x] docker build
-- [x] docker run
-- [x] docker rmi
-- [x] docker save / load
-- [x] docker logs
-- [x] GUI and CLI
-- [x] Attach
-- [x] Docker Hub
-- [x] Docker CMD
-- [x] Log Drivers
-- [x] Data Propagation
-- [x] Docker Compose
-- [x] Volume
-- [x] Networking
-- [x] Registry
-- [x] Load Balancing
-- [x] Swarm
-- [x] Orchestrator
-- [x] Lifecycle
+## Step 6: Deep Learning
 
----
+- [ ] PyTorch / TensorFlow / Keras
+- [ ] RNN / LSTM
+- [ ] Transformers
+- [ ] Transfer Learning
+- [ ] Convolutional Neural Networks (CNN)
 
-# 🌐 Phase 6: API
+## Step 7: Specializations
 
-- [x] REST
-- [x] HTTP Methods (GET/POST/PUT/PATCH/DELETE/HEAD/OPTIONS/CONNECT/TRACE)
-- [x] Client / Host / Endpoint concepts
-- [x] Flask
-- [x] FastAPI
-- [x] JWT (Header / Payload / Signature)
-- [x] Authentication (Cookie-based / Token-based / Session-based)
-- [x] Swagger / OpenAPI
-- [x] JSON
-- [x] curl
-- [x] venv (API context)
-- [x] Advanced Python
-
----
-
-# ☁️ Phase 7: Cloud
-
-- [x] Cloud Computing
-- [x] Cloud Principles
-- [x] Cloud Deployment Models
-- [x] IaaS/PaaS/SaaS
-- [x] Scaling
-- [x] Redundancy
-- [x] High Availability
-- [x] Disaster Recovery
-- [x] SDN
-- [x] IaC
-- [x] Firewall
-- [x] DNS
-- [x] VPS
-- [x] Virtual Machine
-- [x] Storage
-- [x] CDN
-- [x] Cloud Migration
-- [x] Cloud Operation
-- [x] IAM
-- [x] VPC
-- [x] Security Group
-- [x] Cloud Governance
-
----
-
-# ⚙️ Phase 8: CI/CD
-
-- [x] Concept
-- [x] Pain Points (CI)
-- [x] CI
-- [x] Pipeline Concept
-- [x] Pain Points (CD)
-- [x] CD
-- [x] DevOps Concept
-- [x] GitHub Actions
-- [x] YAML
-- [x] Secrets
-- [x] Automated Tests
-
----
-
-# 🎉 Core Roadmap: 8/8 Phases Complete!
-
----
-
-# 🚀 DevOps Path
-
-- [ ] Kubernetes
-- [ ] Terraform
-- [ ] Ansible
-- [ ] Prometheus
-- [ ] Grafana
-- [ ] Security
-
----
-
-# 📊 Data Science Path
-
-- [ ] Statistics
-- [ ] NumPy
-- [ ] Pandas
-- [ ] Visualization
-- [ ] Machine Learning
-- [ ] Deep Learning
+- [ ] Computer Vision
+- [ ] Natural Language Processing
+- [ ] Reinforcement Learning
+- [ ] Recommender Systems
+- [ ] Other Areas
