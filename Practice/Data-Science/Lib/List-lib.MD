@@ -4,3 +4,7 @@
 - [] SciPy
 - [] Pandas 
 - [] Seaborn
+- [] SciKit-Learn
+- [] Matplotlib
+- [] Plotly
+- [] PySpark
