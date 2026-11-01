@@ -8,3 +8,4 @@
 - [] Matplotlib
 - [] Plotly
 - [] PySpark
+- [] Jupyter-Notebook
