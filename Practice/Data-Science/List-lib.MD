@@ -1,6 +1,6 @@
 # List of  Python's Library
 
-- [] NumPy
+- [x] NumPy
 - [] SciPy
 - [] Pandas 
 - [] Seaborn
