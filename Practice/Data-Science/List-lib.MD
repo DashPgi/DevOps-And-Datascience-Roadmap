@@ -2,7 +2,7 @@
 
 - [x] NumPy
 - [] SciPy
-- [] Pandas 
+- [x] Pandas 
 - [] Seaborn
 - [] SciKit-Learn
 - [] Matplotlib
