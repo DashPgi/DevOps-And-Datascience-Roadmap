@@ -9,4 +9,3 @@
 - [] Plotly
 - [] PySpark
 - [] Jupyter-Notebook
-
